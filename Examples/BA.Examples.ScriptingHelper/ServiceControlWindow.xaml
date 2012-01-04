@@ -1,0 +1,72 @@
+﻿<Window x:Class="BA.Examples.ScriptingHelper.ServiceControlWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:toolkit="clr-namespace:Microsoft.Windows.Controls;assembly=WPFToolkit.Extended" xmlns:vm="clr-namespace:BA.Examples.ScriptingHelper.ViewModels" xmlns:views="clr-namespace:BA.Examples.ScriptingHelper.Views" Title="ServiceControlWindow" Height="500" Width="700">
+    <Window.DataContext>
+        <vm:ServiceControlWindowVm />
+    </Window.DataContext>
+    <Grid>
+        <TabControl SelectionChanged="Selector_OnSelectionChanged" x:Name="tabControl">
+            <TabItem Header="Welcome" x:Name="tabWelcome">
+                <StackPanel>
+                    <Button Content="Start FiddlerHelper" 
+                            Command="Commands:WindowOpeningCommands.OpenFiddlerHelperCommand" />
+                    <Button Content="StateBrowser" 
+                            Command="Commands:WindowOpeningCommands.OpenStateBrowserCommand" />
+                    <Button Content="Taxonomy Window" 
+                            Command="Commands:WindowOpeningCommands.OpenTaxonomyTreeWindowCommand" />
+                    <Button Content="Simple regexer" 
+                            Command="Commands:WindowOpeningCommands.OpenSimpleTextWindowCommand" />
+                </StackPanel>
+            </TabItem>
+
+            <TabItem Header="Taxonomy" x:Name="tabTaxonomy">
+                <views:TaxonomyTreeView />
+            </TabItem>
+            
+            <TabItem Header="Scheduling" x:Name="tabScheduling">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="200"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <views:NameValueGridView x:Name="availableSchedulesGrid" />
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock Text="{Binding ElementName=availableSchedulesGrid, Path=ViewModel.SelectedValue}" />
+                            <StackPanel Orientation="Horizontal">
+                                <toolkit:DateTimeUpDown Width="300" Value="{Binding ScheduleTime}" Format="FullDateTime" />
+                                <Button Content="Now" Click="NowButton_Click" />
+                            </StackPanel>
+                            <Button Content="Schedule task" Click="ScheduleButton_Click" />
+                        </StackPanel>
+                    </Grid>
+                </Grid>                
+            </TabItem>
+
+            <TabItem Header="History" x:Name="tabHistory">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <views:ServiceSchedulesGridView x:Name="SchedulesGrid" />
+                    </Grid>
+
+                    <GridSplitter Grid.Row="1" HorizontalAlignment="Stretch"
+                          ResizeBehavior="PreviousAndNext"
+                          ResizeDirection="Rows" Height="5" />
+
+                    <Grid Grid.Row="2">
+                        <views:ServiceSettingGridView x:Name="SettingGrid" />
+                    </Grid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

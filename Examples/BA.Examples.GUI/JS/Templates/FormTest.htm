@@ -1,0 +1,35 @@
+﻿<form id="myform" class="form">
+
+   <fieldset>
+      <h3>Sample registration form</h3>
+      <div id="formErrors" ></div>
+      <p> Enter bad values and then press the submit button. </p>
+      
+      <p>
+         <label>email *</label>
+         <input type="email" name="email" class="required" />
+      </p>
+      <p>
+         <label>website *</label>
+         <input type="url" name="url" class="required" />
+      </p>
+      <p>
+         <label>name *</label>
+         <input type="text" name="name" regex="[a-zA-Z ]{5,30}" maxlength="6" />
+      </p>
+      <p>
+         <label>age</label>
+         <input type="number" name="age" size="4" min="5" max="50" />
+      </p>
+      
+      <p id="terms">
+      	<label>I accept the terms</label>
+      	<input name="terms" type="checkbox" class="required" />   
+		</p>
+      
+      <button type="submit">Submit form</button>
+      <button type="reset">Reset</button>
+   </fieldset>
+
+</form>
+

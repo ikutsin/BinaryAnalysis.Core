@@ -1,0 +1,59 @@
+﻿<Window x:Class="BA.Examples.ScriptingHelper.StateBrowserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:vm="clr-namespace:BA.Examples.ScriptingHelper.ViewModels" xmlns:Views="clr-namespace:BA.Examples.ScriptingHelper.Views" Title="Request history" Height="600" Width="800"
+        Loaded="Window_Loaded">
+    <Window.DataContext>
+        <vm:StateBrowserWindowVm />
+    </Window.DataContext>
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="VisibilityOfBool" />
+        <Style x:Key="readonly" TargetType="TextBox">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="IsReadOnly" Value="True" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+        </Style>        
+    </Window.Resources>
+    <Grid>
+        <TabControl>
+            <TabItem Header="State Browser">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"  />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <Views:AutoCompleteTextBox DelayTime="500" x:Name="addressBar"></Views:AutoCompleteTextBox>
+                    <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="0">
+                        <Button x:Name="btnLoadState" Content="Load state" />
+                        <Button x:Name="btnLoadFixedState" Content="Load fixed" />
+                        <Button x:Name="btnRegex" Content="Regex" />
+                    </StackPanel>
+                    <WebBrowser Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" x:Name="webBrowser">
+                    </WebBrowser>
+                </Grid>
+            </TabItem>
+            
+            <TabItem Header="Evaluation">
+                <Views:FiddlerPageHtmlDomView DataContext="{Binding PageHtmlDomInfo}" />
+            </TabItem>
+
+            <TabItem Header="Log">
+                <ScrollViewer>
+                <ItemsControl x:Name="logEntries" ItemsSource="{Binding LogEntries}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border>
+                                <TextBox Style="{StaticResource readonly}" Text="{Binding Text}" />
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+                </ScrollViewer>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

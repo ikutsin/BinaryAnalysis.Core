@@ -1,0 +1,73 @@
+﻿<UserControl x:Class="BA.Examples.ScriptingHelper.Views.FiddlerPageHtmlDomView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:Converters="clr-namespace:BA.Examples.ScriptingHelper.ViewModels.Converters" xmlns:Views="clr-namespace:BA.Examples.ScriptingHelper.Views" mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <Style TargetType="TreeViewItem">
+            <Setter Property="IsExpanded" Value="True" />
+        </Style>
+
+        <Converters:HtmlNodeToNameConverter x:Key="nodeConverter" />
+        <HierarchicalDataTemplate ItemsSource="{Binding Path=Children}" x:Key="template">
+            <Grid>
+                <TextBlock Text="{Binding Current,Converter={StaticResource nodeConverter}}"
+                           Background="{Binding Highlight}"
+                           />
+            </Grid>
+        </HierarchicalDataTemplate>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".5*" />
+            <ColumnDefinition Width=".5*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Grid.ColumnSpan="2" Grid.Row="0">
+            <TextBlock Text="XPath:" />
+            <TextBox x:Name="tbxXPathInput" MinWidth="180">
+                <TextBox.InputBindings>
+                    <KeyBinding Command="{Binding HightlightHtmlElements}" Key="Enter" CommandParameter="{Binding ElementName=tbxXPathInput, Path=Text}" /> 
+                </TextBox.InputBindings>
+            </TextBox>
+            <Button Content="Single" Command="{Binding HightlightSingleElement}" CommandParameter="{Binding ElementName=tbxXPathInput, Path=Text}"  />
+            <Button Content="Highlight" Command="{Binding HightlightHtmlElements}" CommandParameter="{Binding ElementName=tbxXPathInput, Path=Text}"  />
+            <Button Content="E" Click="Button_ExpandElement" />
+        </StackPanel>
+
+
+        <StackPanel Orientation="Horizontal"  Grid.Row="1" Grid.Column="0">
+            <TextBlock Text="SessionDocument" />
+            <Button Content="E" Click="Button_SessionDocumentExpandClick" />
+            <Button Content="C" Click="Button_SessionDocumentCollapseClick" />
+        </StackPanel>
+
+        <TreeView Grid.Row="2" Grid.Column="0" x:Name="TreeSessionDocument"
+            ItemsSource="{Binding Path=SessionDocument.Children}" 
+            ItemTemplate="{StaticResource template}"/>
+
+        <StackPanel Orientation="Horizontal"  Grid.Row="1" Grid.Column="1">
+            <TextBlock Text="DomDocument" />
+            <Button Content="E" Click="Button_DomDocumentExpandClick" />
+            <Button Content="C" Click="Button_DomDocumentCollapseClick" />
+        </StackPanel>
+        
+        <TreeView Grid.Row="2" Grid.Column="1" x:Name="TreeDomDocument"
+            ItemsSource="{Binding Path=DomDocument.Children}" 
+            ItemTemplate="{StaticResource template}"/>
+
+        <GridSplitter Grid.ColumnSpan="2" Grid.Row="3" HorizontalAlignment="Stretch"
+                          ResizeBehavior="PreviousAndNext"
+                          ResizeDirection="Rows" Height="5" />
+
+        <Views:FiddlerPageHtmlDomElementView x:Name="elementView" Grid.ColumnSpan="2" Grid.Row="4" />
+    </Grid>
+</UserControl>

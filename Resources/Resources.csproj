@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B8735663-38E6-4835-98D4-E2C96C061E2B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Resources</RootNamespace>
+    <AssemblyName>Resources</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Components\libs-common\Autofac\Autofac License.txt" />
+    <Content Include="Components\libs-common\Autofac\Autofac.Configuration.dll" />
+    <Content Include="Components\libs-common\Autofac\Autofac.dll" />
+    <Content Include="Components\libs-common\Autofac\Autofac.Integration.Mef.dll" />
+    <Content Include="Components\libs-common\Autofac\Autofac.Integration.Mvc.dll" />
+    <Content Include="Components\libs-common\Autofac\Autofac.Integration.Wcf.dll" />
+    <Content Include="Components\libs-common\Autofac\Autofac.Integration.Web.dll" />
+    <Content Include="Components\libs-common\Autofac\Autofac.XML" />
+    <Content Include="Components\libs-common\Autofac\AutofacContrib.DynamicProxy2.dll" />
+    <Content Include="Components\libs-common\EmitMapper.dll" />
+    <Content Include="Components\libs-common\Flee\Ciloci.Flee.dll" />
+    <Content Include="Components\libs-common\Flee\Ciloci.Flee.xml" />
+    <Content Include="Components\libs-common\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="Components\libs-common\Jint.dll" />
+    <Content Include="Components\libs-common\log4net.dll" />
+    <Content Include="Components\libs-common\monoscharp\csharp.exe" />
+    <Content Include="Components\libs-common\monoscharp\csharp.pdb" />
+    <Content Include="Components\libs-common\monoscharp\Mono.CSharp.dll" />
+    <Content Include="Components\libs-common\monoscharp\Mono.CSharp.pdb" />
+    <Content Include="Components\libs-common\NCrontab.dll" />
+    <Content Include="Components\libs-common\Newtonsoft.Json.dll" />
+    <Content Include="Components\libs-common\NHibernate\Antlr3.Runtime.dll" />
+    <Content Include="Components\libs-common\NHibernate\Castle.Core.dll" />
+    <Content Include="Components\libs-common\NHibernate\FluentNHibernate.dll" />
+    <Content Include="Components\libs-common\NHibernate\Iesi.Collections.dll" />
+    <Content Include="Components\libs-common\NHibernate\Iesi.Collections.xml" />
+    <Content Include="Components\libs-common\NHibernate\Lucene.Net.dll" />
+    <Content Include="Components\libs-common\NHibernate\NHibernate.ByteCode.Castle.dll" />
+    <Content Include="Components\libs-common\NHibernate\NHibernate.dll" />
+    <Content Include="Components\libs-common\NHibernate\NHibernate.Search.dll" />
+    <Content Include="Components\libs-common\NHibernate\NHibernate.Validator.dll" />
+    <Content Include="Components\libs-common\NHibernate\NHibernate.Validator.Specific.dll" />
+    <Content Include="Components\libs-common\NHibernate\NHibernate.Validator.Specific.xml" />
+    <Content Include="Components\libs-common\NHibernate\NHibernate.Validator.xml" />
+    <Content Include="Components\libs-common\NHibernate\NHibernate.xml" />
+    <Content Include="Components\libs-common\NHibernate\Remotion.Data.Linq.dll" />
+    <Content Include="Components\libs-common\NUnit\nunit.core.dll" />
+    <Content Include="Components\libs-common\NUnit\nunit.framework.dll" />
+    <Content Include="Components\libs-common\NUnit\nunit.framework.xml" />
+    <Content Include="Components\libs-common\NUnit\nunit.mocks.dll" />
+    <Content Include="Components\libs-common\NUnit\pnunit.framework.dll" />
+    <Content Include="Components\libs-common\RazorEngine.dll" />
+    <Content Include="Components\libs-common\ScintillaNet\Release Notes.htm" />
+    <Content Include="Components\libs-common\ScintillaNet\SciLexer.dll" />
+    <Content Include="Components\libs-common\ScintillaNet\ScintillaNet.dll" />
+    <Content Include="Components\libs-common\ScintillaNet\ScintillaNet.pdb" />
+    <Content Include="Components\libs-common\SgmlReaderDll.dll" />
+    <Content Include="Components\libs-common\System.Reactive.dll" />
+    <Content Include="Components\libs-mono\DataProviders\MySql.Data.dll" />
+    <Content Include="Components\libs-ms\DataProviders\MySql.Data.dll" />
+    <Content Include="Components\libs-ms\DataProviders\System.Data.SQLite.dll" />
+    <Content Include="Components\libs-ms\FiddlerCore\FiddlerCore4.dll" />
+    <Content Include="Components\libs-ms\FiddlerCore\FiddlerCore4.XML" />
+    <Content Include="Components\libs-ms\FiddlerCore\makecert.exe" />
+    <Content Include="Components\libs-ms\WPFToolkit.Extended.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\SolutionAssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Build\Release.bat" />
+    <None Include="Build\Release.build" />
+    <None Include="Components\libs-common\Flee\Ciloci.Flee.chm" />
+    <None Include="Components\libs-common\NHibernate\nhibernate-configuration.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Components\libs-common\NHibernate\nhibernate-mapping.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Components\libs-common\NHibernate\nhv-configuration.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Components\libs-common\NHibernate\nhv-mapping.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Components\libs-common\ScintillaNet\license.rtf" />
+    <None Include="Components\libs-common\ScintillaNet\ReadMe.rtf" />
+    <None Include="Templates\Items\BasicSchedulerScript.zip" />
+    <None Include="Templates\Project\BinaryAnalysis.Goal.zip" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

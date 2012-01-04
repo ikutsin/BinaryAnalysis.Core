@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DDE25ACB-994E-4C18-9A73-C2B81717B74E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BinaryAnalysis.Extensions</RootNamespace>
+    <AssemblyName>BinaryAnalysis.Extensions</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Autofac, Version=2.5.1.827, Culture=neutral, PublicKeyToken=17863af14b0044da">
+      <HintPath>..\..\Resources\Components\libs-common\Autofac\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="EmitMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\Resources\Components\libs-common\EmitMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate, Version=1.2.0.694, Culture=neutral, PublicKeyToken=8aa435e3cb308880">
+      <HintPath>..\..\Resources\Components\libs-common\NHibernate\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Jint, Version=0.9.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\Resources\Components\libs-common\Jint.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821">
+      <HintPath>..\..\Resources\Components\libs-common\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.0.2.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>..\..\Resources\Components\libs-common\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4">
+      <HintPath>..\..\Resources\Components\libs-common\NHibernate\NHibernate.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Resources\Properties\SolutionAssemblyInfo.cs">
+      <Link>Properties\SolutionAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="Browsing\Commands\ClearCacheEntryScriptCommand.cs" />
+    <Compile Include="Browsing\Commands\ClearDomainCacheForScriptCommand.cs" />
+    <Compile Include="Browsing\Commands\GetBrowsingSessionScriptCommand.cs" />
+    <Compile Include="Browsing\Commands\SwitchProxyAndMarkInvalidScriptCommand.cs" />
+    <Compile Include="Browsing\Commands\SwitchSessionToScriptCommand.cs" />
+    <Compile Include="Browsing\StateBrowsingResponse.cs" />
+    <Compile Include="Browsing\StatefullBrowsingSessionWrapper.cs" />
+    <Compile Include="Browsing\ScriptFlowExtensions.cs" />
+    <Compile Include="Dependencies\ContainerLagacyDependencies.cs" />
+    <Compile Include="Dependencies\NoDependencies.cs" />
+    <Compile Include="FileStorage\FileRepository.cs" />
+    <Compile Include="Health\AbstractFrequencyTrackHelper.cs" />
+    <Compile Include="Health\BandwidthTrackerDecorator.cs" />
+    <Compile Include="Health\Data\TrackedModuledDbContext.cs" />
+    <Compile Include="Health\DurationTrackHelper.cs" />
+    <Compile Include="Health\FrequencyTrackHelper.cs" />
+    <Compile Include="Health\MetricsHealthTrackingService.cs" />
+    <Compile Include="Health\LogHealthTrackingService.cs" />
+    <Compile Include="Health\IHealthTrackingService.cs" />
+    <Compile Include="Health\PerformanceCountersTracker.cs" />
+    <Compile Include="Health\RandomTracker.cs" />
+    <Compile Include="Health\SchedulerServiceTracker.cs" />
+    <Compile Include="Health\Data\WrappedSessionManagerTracker.cs" />
+    <Compile Include="HttpProxy\Control\HttpProxyDecorator.cs" />
+    <Compile Include="HttpProxy\Control\HttpProxyDecoratorBase.cs" />
+    <Compile Include="HttpProxy\Control\ParallelHttpProxyBrowsing.cs" />
+    <Compile Include="HttpProxy\Control\ParallelHttpProxyDecorator.cs" />
+    <Compile Include="HttpProxy\Data\HttpProxyBoxMap.cs" />
+    <Compile Include="HttpProxy\Data\HttpProxyEntity.cs" />
+    <Compile Include="HttpProxy\Data\HttpProxyRepository.cs" />
+    <Compile Include="HttpProxy\Data\HttpProxyFileBackup.cs" />
+    <Compile Include="JSEvaluator\JSEvalService.cs" />
+    <Compile Include="JSEvaluator\JsValue.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BinaryAnalysis.Box\BinaryAnalysis.Box.csproj">
+      <Project>{2B477514-147E-46CD-A01C-17B7B1E04DF3}</Project>
+      <Name>BinaryAnalysis.Box</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BinaryAnalysis.Browsing\BinaryAnalysis.Browsing.csproj">
+      <Project>{9BDB0B5D-5FCE-4B04-95E8-4E68C1C3FF44}</Project>
+      <Name>BinaryAnalysis.Browsing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BinaryAnalysis.Data\BinaryAnalysis.Data.csproj">
+      <Project>{CFA1F858-2EDC-43B3-9C21-F8C528F1F29B}</Project>
+      <Name>BinaryAnalysis.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BinaryAnalysis.Scheduler\BinaryAnalysis.Scheduler.csproj">
+      <Project>{4D1BC45F-1471-46CD-95AE-8E5E9FDA8ABC}</Project>
+      <Name>BinaryAnalysis.Scheduler</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

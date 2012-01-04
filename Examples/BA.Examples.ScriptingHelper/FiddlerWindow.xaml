@@ -1,0 +1,146 @@
+﻿<Window x:Class="BA.Examples.ScriptingHelper.FiddlerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:vm="clr-namespace:BA.Examples.ScriptingHelper.ViewModels" xmlns:Views="clr-namespace:BA.Examples.ScriptingHelper.Views" Title="Request history" Height="600" Width="800"
+        Loaded="Window_Loaded">
+    <Window.DataContext>
+        <vm:FiddlerWindowVm />
+    </Window.DataContext>
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="VisibilityOfBool" />
+        <Style x:Key="readonly" TargetType="TextBox">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderThickness" Value="0" />
+            <Setter Property="IsReadOnly" Value="True" />
+            <Setter Property="TextWrapping" Value="Wrap" />
+        </Style>        
+        <Style x:Key="headerItems" TargetType="ItemsControl">
+            <Setter Property="ItemTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBox Style="{StaticResource readonly}" Text="{Binding Name}" />
+                            <TextBlock Text=" = " />
+                            <TextBox Style="{StaticResource readonly}" Text="{Binding Value}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <TabControl>
+            <TabItem Header="Browser">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"  />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <TextBox Text="http://" Grid.Column="0" Grid.Row="0" x:Name="addressBar">
+                        <TextBox.InputBindings>
+                            <KeyBinding CommandParameter="{Binding ElementName=addressBar, Path=Text}"  Command="{Binding NavigateNewHistory}" Key="Enter" />
+                        </TextBox.InputBindings>
+                    </TextBox>
+                    <Button CommandParameter="{Binding ElementName=addressBar, Path=Text}" Command="{Binding NavigateNewHistory}" Grid.Column="1" Grid.Row="0"  x:Name="newHistory" Content="New history" />
+                    <WebBrowser Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" x:Name="webBrowser">
+                    </WebBrowser>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Page details">
+              <Views:FiddlerPageDetail DataContext="{Binding PageDetail}" />
+            </TabItem>
+            <TabItem Header="Page info">
+                <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                    <StackPanel>
+                        <Expander Header="InputTags" IsExpanded="True" >
+                            <ItemsControl x:Name="inputTags" ItemsSource="{Binding PageInfo.InputTags}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border BorderThickness="1">
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBox Style="{StaticResource readonly}" Text="{Binding TagName}" />
+                                                <TextBlock Text=" - " />
+                                                <TextBox Style="{StaticResource readonly}" Text="{Binding Type}" />
+                                                <TextBlock Text=" - " />
+                                                <TextBox Style="{StaticResource readonly}" Text="{Binding Name}" />
+                                                <TextBlock Text=" = " />
+                                                <TextBox Style="{StaticResource readonly}" Text="{Binding Value}" />
+                                            </StackPanel>
+                                        </Border>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </Expander>
+                        <Expander IsExpanded="True" >
+                            <Expander.Header>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Query view - " />
+                                    <TextBlock Text="{Binding PageInfo.RequestType}" />
+                                    <TextBlock Text=" - " />
+                                    <TextBox Style="{StaticResource readonly}" Text="{Binding PageInfo.RequestUrl}" />
+                                </StackPanel>
+                            </Expander.Header>
+                            <ItemsControl Style="{StaticResource headerItems}"  x:Name="queryString" ItemsSource="{Binding PageInfo.QueryParams}">
+                            </ItemsControl>
+                        </Expander>                        
+                        <Expander Header="RequestHeaders" IsExpanded="True" >
+                            <ItemsControl Style="{StaticResource headerItems}"  x:Name="requestHeaders" ItemsSource="{Binding PageInfo.RequestHeaders}">
+                            </ItemsControl>
+                        </Expander>
+                        <Expander Header="ResponseHeaders" IsExpanded="True" >
+                            <ItemsControl Style="{StaticResource headerItems}" x:Name="responseHeaders" ItemsSource="{Binding PageInfo.ResponseHeaders}">
+                            </ItemsControl>
+                        </Expander>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Evaluation">
+                <Views:FiddlerPageHtmlDomView DataContext="{Binding PageHtmlDomInfo}" />
+            </TabItem>
+            <TabItem Header="Fiddler history">
+                <!--<Menu Height="22" Name="outputMenu">
+                    <MenuItem Header="Refresh" Command="{Binding RefreshStepsTreeCommand}" />
+                </Menu>-->
+                <ScrollViewer>
+                    <ItemsControl x:Name="outputEntries" ItemsSource="{Binding Output.Steps}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Expander>
+                                    <Expander.Header>
+                                        <TextBox Style="{StaticResource readonly}" Text="{Binding Name}" />
+                                    </Expander.Header>
+                                    <ItemsControl ItemsSource="{Binding}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Horizontal">
+                                                <TextBlock Visibility="{Binding isAjaxCall,Converter={StaticResource VisibilityOfBool}}" Text="(Ajax)" />
+                                                <TextBox Style="{StaticResource readonly}" Text="{Binding BrowsingResponse.ResponseUrl, Mode=OneWay}" />
+                                                </StackPanel>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </Expander>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </ScrollViewer>
+            </TabItem>
+            <TabItem Header="Log">
+                <ScrollViewer>
+                <ItemsControl x:Name="logEntries" ItemsSource="{Binding LogEntries}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border>
+                                <TextBox Style="{StaticResource readonly}" Text="{Binding Text}" />
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+                </ScrollViewer>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

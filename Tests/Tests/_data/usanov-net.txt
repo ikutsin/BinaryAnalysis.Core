@@ -1,0 +1,583 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<Title>Все, что меня окружает</title>
+<link rel="stylesheet" href="http://usanov.net/wp-content/themes/my-grace/style.css" type="text/css" media="screen" />
+<style type="text/css">
+  #portrait-bg { background:url(http://usanov.net/wp-content/themes/my-grace/images/bg-portrait-frame.jpg); }
+</style>
+<link rel="alternate" type="application/rss+xml" title="Все, что меня окружает RSS Feed" href="http://usanov.net/feed" />
+<link rel="pingback" href="http://usanov.net/xmlrpc.php" />
+
+<link rel='stylesheet' id='wp-polls-css'  href='http://usanov.net/wp-content/plugins/wp-polls/polls-css.css?ver=2.50' type='text/css' media='all' />
+<script type='text/javascript' src='http://usanov.net/wp-includes/js/jquery/jquery.js?ver=1.4.2'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://usanov.net/xmlrpc.php?rsd" />
+
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://usanov.net/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Все, что меня окружает' href='http://usanov.net' />
+<meta name="generator" content="WordPress 3.0.5" />
+<link rel="stylesheet" href="http://usanov.net/wp-content/plugins/shutter-reloaded/shutter-reloaded.css?ver=2.4" type="text/css" media="screen" />
+<style type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('http://usanov.net/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+</style>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<meta id="syntaxhighlighteranchor" name="syntaxhighlighter-version" content="3.1.1" />
+</head>
+
+<body>
+<div id="wrap">
+	<div id="menu">
+		<ul>
+
+		<li><a href="http://usanov.net/" >В начало</a></li>
+		<li class="page_item page-item-2"><a href="http://usanov.net/about" title="Обратная связь">Обратная связь</a></li>
+<li class="page_item page-item-1141"><a href="http://usanov.net/links" title="Ссылки">Ссылки</a></li>
+<li class="page_item page-item-1215"><a href="http://usanov.net/pollsarchive" title="Архив опросов">Архив опросов</a></li>
+		</ul>
+	</div>
+	<div id="header">
+		<span class="btitle"><a href="http://usanov.net/">Все, что меня окружает</a></span>
+
+		<p class="description">
+		<a href="http://usanov.net/">		На иконку RSS можно нажать :)		</a> 
+		</p>
+	</div>
+	<div id="rss-big"><a href="http://usanov.net/feed" title="Subscribe to this site with RSS" rel="nofollow"></a></div>
+	<div id="portrait-bg"><img src="http://usanov.net/wp-content/themes/my-grace/portrait/rssmig_03.jpg" id="portrait-bgg" alt="Картинка блога" /></div>
+	<div id="catmenu">
+		<!-- <ul>	<li class="cat-item cat-item-7"><a href="http://usanov.net/category/it/ai" title="Автоматизация процессов, автоматический поиск решений.
+Распределенные вычисления, нечеткие и экспертные системы, искусственный интеллект.">Автоматизация и ИИ</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://usanov.net/category/other"  title="Обзоры, программы и другие интересные темы." rel="nofollow">Мир и сеть</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://usanov.net/category/it/flash"  title="Адоб Флеш. Программы и новости." rel="nofollow">Flash</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://usanov.net/category/it/mssql"  title="База данных MSSQL." rel="nofollow">MSSQL</a>
+</li>
+	<li class="cat-item cat-item-16"><a href="http://usanov.net/category/it/progs"  title="Вспомогательные программы." rel="nofollow">Программы</a>
+</li>
+</ul> -->
+
+	</div><div id="content">
+					<div class="entry entry-1">
+		<div class="entrytitle_wrap">
+			<div class="entrydate"><div class="dateMonth">Фев</div><div class="dateDay">15</div>  </div>
+				<div class="entrytitle">
+				  
+				<h1><a href="http://usanov.net/1900-poisk-tematicheskix-sajtov-na-primere-mp3-portalov" rel="bookmark" title="Ссылка на Поиск тематических сайтов на примере Mp3 порталов">Поиск тематических сайтов на примере Mp3 порталов</a></h1> 
+								</div>
+
+				<div class="endate">15 февраля, 2011 <!-- by Ikutsin --></div>
+			</div>
+		<div class="entrybody">
+			<p><a href="http://usanov.net/wp-content/uploads/2011/02/googlemusic-main_full.jpg"><img class="alignleft size-thumbnail wp-image-1984" title="googlemusic-main_full" src="http://usanov.net/wp-content/uploads/2011/02/googlemusic-main_full-150x150.jpg" alt="" width="150" height="150" /></a>Интеллектуальность &laquo;гугл-о-поиска&raquo; часто бывает не достаточной для поиска сатов схожей тематики или сайтов с серым сожержанием. Особенно это становится актуально с вводом новой фильтрации в поиске гугла, которая нацелена на ключевики типа &#8211; torrent, скачать онлайн, слушать онлайн и др. Эти слова не исчезнут из выдачи, по задумке, они пока должны стоять просто ниже оригинала. Например, набрав &#8211; &laquo;аватар&raquo; должен быть официальный сайт с Википедией, потом сайты фанатов, и уже после &#8211; скачать,посмотреть и т.д. Но назад к проблеме &#8211; На днях, искал песнью &raquo;ХЗ &#8211; Просто и легко&raquo; на prostopleer.ru ее не оказалось, на тот момент у гугла ответа тоже не было (по крайне мере на первой странице результатов). <a href="http://usanov.net/1900-poisk-tematicheskix-sajtov-na-primere-mp3-portalov#more-1900" class="more-link">Продолжить чтение &raquo;</a></p>
+
+			<p style="font-size:75%; text-align:right">Метки:<a href="http://usanov.net/tag/obzor" rel="tag">обзор</a>, <a href="http://usanov.net/tag/servis" rel="tag">сервис</a>, <a href="http://usanov.net/tag/spravochnik" rel="tag">справочник</a></p> 
+		</div>
+
+		<div class="entrymeta">
+			<div class="postinfo"> 
+				<!-- <span class="filedto"><a href="http://usanov.net/category/other/howto" title="Просмотреть все записи в рубрике &laquo;Как?&raquo;" rel="category tag">Как?</a> </span> -->
+				<span class="commentslink"><a href="http://usanov.net/1900-poisk-tematicheskix-sajtov-na-primere-mp3-portalov#respond" title="Комментарий к записи Поиск тематических сайтов на примере Mp3 порталов">Комментариев нет</a></span>  
+							</div>
+
+		</div>
+	</div>
+
+			<div class="entry entry-2">
+		<div class="entrytitle_wrap">
+			<div class="entrydate"><div class="dateMonth">Фев</div><div class="dateDay">5</div>  </div>
+				<div class="entrytitle">
+								<h2><a href="http://usanov.net/1943-chto-ya-kupil-na-zarabotannye-ot-bloga-dengi" rel="bookmark" title="Ссылка на Что я купил на заработанные от блога деньги">Что я купил на заработанные от блога деньги</a></h2> 
+								</div>
+
+				<div class="endate">5 февраля, 2011 <!-- by Ikutsin --></div>
+			</div>
+		<div class="entrybody">
+			<p><a href="http://usanov.net/wp-content/uploads/2011/02/Music_present.jpg"><img class="alignright size-thumbnail wp-image-1962" title="Music present" src="http://usanov.net/wp-content/uploads/2011/02/Music_present-150x150.jpg" alt="" width="150" height="150" /></a>Эти слова благодарности для всех вас дорогие читатели, и конечно &#8211; рекламодатели. Именно из за-вас существует этот блог, окупая хостинг и позволяя автору прикупить кое-что еще <img src='http://usanov.net/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+<p> <a href="http://usanov.net/1943-chto-ya-kupil-na-zarabotannye-ot-bloga-dengi#more-1943" class="more-link">Продолжить чтение &raquo;</a></p>
+			<p style="font-size:75%; text-align:right">Метки:<a href="http://usanov.net/tag/obo-mne" rel="tag">обо мне</a></p> 
+		</div>
+
+		<div class="entrymeta">
+			<div class="postinfo"> 
+				<!-- <span class="filedto"><a href="http://usanov.net/category/mylife" title="Просмотреть все записи в рубрике &laquo;Моя жизнь&raquo;" rel="category tag">Моя жизнь</a> </span> -->
+				<span class="commentslink"><a href="http://usanov.net/1943-chto-ya-kupil-na-zarabotannye-ot-bloga-dengi#comments" title="Комментарий к записи Что я купил на заработанные от блога деньги">2 комментария</a></span>  
+							</div>
+		</div>
+	</div>
+
+			<div class="entry entry-3">
+
+		<div class="entrytitle_wrap">
+			<div class="entrydate"><div class="dateMonth">Фев</div><div class="dateDay">5</div>  </div>
+				<div class="entrytitle">
+								<h2><a href="http://usanov.net/1936-cms-made-simple-sozdanie-i-rabota-s-menyu" rel="bookmark" title="Ссылка на CMS Made Simple создание и работа с меню">CMS Made Simple создание и работа с меню</a></h2> 
+								</div>
+				<div class="endate">5 февраля, 2011 <!-- by Ikutsin --></div>
+			</div>
+
+		<div class="entrybody">
+			<p><a href="http://usanov.net/wp-content/uploads/2011/02/CMSMS.png"><img class="alignleft size-thumbnail wp-image-1958" title="CMSMS" src="http://usanov.net/wp-content/uploads/2011/02/CMSMS-150x150.png" alt="" width="150" height="150" /></a>Меню в CMSMS это, пожалуй, первый элемент с которым столкнется разработчик при знакомстве с этой замечательной CMS. Как понятно из названия, этот модуль нужен для создания меню, я же его еще использую для создания списка элементов (грид). Например, сделать список продуктов с кратким описанием на одной странице.  <a href="http://usanov.net/1936-cms-made-simple-sozdanie-i-rabota-s-menyu#more-1936" class="more-link">Продолжить чтение &raquo;</a></p>
+			<p style="font-size:75%; text-align:right">Метки:<a href="http://usanov.net/tag/opensource" rel="tag">OpenSource</a>, <a href="http://usanov.net/tag/php" rel="tag">PHP</a>, <a href="http://usanov.net/tag/spravochnik" rel="tag">справочник</a></p> 
+		</div>
+
+		<div class="entrymeta">
+
+			<div class="postinfo"> 
+				<!-- <span class="filedto"><a href="http://usanov.net/category/it/js" title="Просмотреть все записи в рубрике &laquo;HTML, AJAX, JS &amp; CSS&raquo;" rel="category tag">HTML, AJAX, JS &amp; CSS</a> </span> -->
+				<span class="commentslink"><a href="http://usanov.net/1936-cms-made-simple-sozdanie-i-rabota-s-menyu#respond" title="Комментарий к записи CMS Made Simple создание и работа с меню">Комментариев нет</a></span>  
+							</div>
+		</div>
+	</div>
+
+			<div class="entry entry-4">
+		<div class="entrytitle_wrap">
+			<div class="entrydate"><div class="dateMonth">Фев</div><div class="dateDay">5</div>  </div>
+
+				<div class="entrytitle">
+								<h2><a href="http://usanov.net/1878-gettext-dlya-bitnami-django-stack" rel="bookmark" title="Ссылка на gettext для Bitnami Django stack">gettext для Bitnami Django stack</a></h2> 
+								</div>
+				<div class="endate">5 февраля, 2011 <!-- by Ikutsin --></div>
+			</div>
+		<div class="entrybody">
+			<p><a href="http://usanov.net/wp-content/uploads/2011/02/i18n_m.jpg"><img src="http://usanov.net/wp-content/uploads/2011/02/i18n_m-150x150.jpg" alt="" title="i18n" width="150" height="150" class="alignright size-thumbnail wp-image-1948" /></a>Продолжая работу со стеком <a href="http://usanov.net/1852-bitnami-django-stack-i-perebros-portov-v-virtualbox">Django Bitnami</a> сталкиваюсь с новыми недочетами разработчиков. Теперь это проблема перевода проектов, в частности старая версия <em>gettext </em>как следствие невозможность использования <em>djangoadmin makemessages</em> и проекта <em>rosetta.</em> Обычной установки gettext из репозитория недостаточно, это связанно с тем, что стек Bitnami хранит свои библиотеки и исполняемые файлы отдельно от системных. Зачем так сделано, несовсем понятно, но это реально мешает стандартному методу обновления через <em>aptitude.</em> Но обо всем по порядку: <a href="http://usanov.net/1878-gettext-dlya-bitnami-django-stack#more-1878" class="more-link">Продолжить чтение &raquo;</a></p>
+
+			<p style="font-size:75%; text-align:right">Метки:<a href="http://usanov.net/tag/python" rel="tag">Python</a>, <a href="http://usanov.net/tag/programmy" rel="tag">программы</a></p> 
+		</div>
+
+		<div class="entrymeta">
+			<div class="postinfo"> 
+				<!-- <span class="filedto"><a href="http://usanov.net/category/it/python-it" title="Просмотреть все записи в рубрике &laquo;Python&raquo;" rel="category tag">Python</a> </span> -->
+				<span class="commentslink"><a href="http://usanov.net/1878-gettext-dlya-bitnami-django-stack#respond" title="Комментарий к записи gettext для Bitnami Django stack">Комментариев нет</a></span>  
+							</div>
+
+		</div>
+	</div>
+
+			<div class="entry entry-5">
+		<div class="entrytitle_wrap">
+			<div class="entrydate"><div class="dateMonth">Янв</div><div class="dateDay">13</div>  </div>
+				<div class="entrytitle">
+								<h2><a href="http://usanov.net/1725-arxitektura-vysokonagruzhennyx-sistem" rel="bookmark" title="Ссылка на Архитектура высоконагруженных систем">Архитектура высоконагруженных систем</a></h2> 
+								</div>
+
+				<div class="endate">13 января, 2011 <!-- by Ikutsin --></div>
+			</div>
+		<div class="entrybody">
+			<p><a href="http://usanov.net/wp-content/uploads/2011/01/Architecture.jpg"><img class="alignleft size-thumbnail wp-image-1910" title="Architecture wireframe" src="http://usanov.net/wp-content/uploads/2011/01/Architecture-150x150.jpg" alt="" width="150" height="150" /></a>Уже давно этот заголовок маячит у меня в черновиках. Это подборка статей об архитектуре популярных веб приложений, которыми пользуется весь мир. Наблюдается интересная закономерность, большинство сайтов, в качестве базы данных используют MySQL, и половина проектов написано на PHP. Все проекты не на .NET и Java используют memcache (остальные, видимо встроенные возможности библиотек). К сожалению не у всех описана балансировки нагрузки, но думаю &#8211; технология у всех схожая. Вот, собственно, сам список: <a href="http://usanov.net/1725-arxitektura-vysokonagruzhennyx-sistem#more-1725" class="more-link">Продолжить чтение &raquo;</a></p>
+			<p style="font-size:75%; text-align:right">Метки:<a href="http://usanov.net/tag/internet" rel="tag">интернет</a>, <a href="http://usanov.net/tag/development" rel="tag">разработка</a>, <a href="http://usanov.net/tag/spravochnik" rel="tag">справочник</a></p> 
+		</div>
+
+		<div class="entrymeta">
+			<div class="postinfo"> 
+				<!-- <span class="filedto"><a href="http://usanov.net/category/it" title="Просмотреть все записи в рубрике &laquo;Индустрия IT&raquo;" rel="category tag">Индустрия IT</a> </span> -->
+				<span class="commentslink"><a href="http://usanov.net/1725-arxitektura-vysokonagruzhennyx-sistem#respond" title="Комментарий к записи Архитектура высоконагруженных систем">Комментариев нет</a></span>  
+							</div>
+		</div>
+	</div>
+
+			<div class="entry entry-6">
+
+		<div class="entrytitle_wrap">
+			<div class="entrydate"><div class="dateMonth">Янв</div><div class="dateDay">10</div>  </div>
+				<div class="entrytitle">
+								<h2><a href="http://usanov.net/1901-50-vechnyx-citat-o-programmirovanii" rel="bookmark" title="Ссылка на 50 вечных цитат о программировании">50 вечных цитат о программировании</a></h2> 
+								</div>
+				<div class="endate">10 января, 2011 <!-- by Ikutsin --></div>
+			</div>
+
+		<div class="entrybody">
+			<p><a href="http://usanov.net/wp-content/uploads/2011/01/programmer-comics-sudo-make-me-a-sandwich.jpg"><img src="http://usanov.net/wp-content/uploads/2011/01/programmer-comics-sudo-make-me-a-sandwich-150x150.jpg" alt="" title="sudo make me a sandwich" width="150" height="150" class="alignright size-thumbnail wp-image-1906" /></a>Отличный подбор цитат о программировании. Некоторые из них знакомы, и все до безобразия правдивы. К сожалению ни одного автора с русской фамилией, кто знает, возможно, когда нибудь меня тоже начнут цитировать&#8230; <img src='http://usanov.net/wp-includes/images/smilies/icon_smile.gif' alt=':)' class='wp-smiley' />  <a href="http://usanov.net/1901-50-vechnyx-citat-o-programmirovanii#more-1901" class="more-link">Продолжить чтение &raquo;</a></p>
+			<p style="font-size:75%; text-align:right">Метки:<a href="http://usanov.net/tag/development" rel="tag">разработка</a>, <a href="http://usanov.net/tag/yumor" rel="tag">юмор</a></p> 
+		</div>
+
+		<div class="entrymeta">
+
+			<div class="postinfo"> 
+				<!-- <span class="filedto"><a href="http://usanov.net/category/other/humor" title="Просмотреть все записи в рубрике &laquo;Юмор&raquo;" rel="category tag">Юмор</a> </span> -->
+				<span class="commentslink"><a href="http://usanov.net/1901-50-vechnyx-citat-o-programmirovanii#respond" title="Комментарий к записи 50 вечных цитат о программировании">Комментариев нет</a></span>  
+							</div>
+		</div>
+	</div>
+
+			<div class="entry entry-7">
+		<div class="entrytitle_wrap">
+			<div class="entrydate"><div class="dateMonth">Янв</div><div class="dateDay">7</div>  </div>
+
+				<div class="entrytitle">
+								<h2><a href="http://usanov.net/1892-posylki-i-tamozhnya-estonii" rel="bookmark" title="Ссылка на Посылки и таможня Эстонии">Посылки и таможня Эстонии</a></h2> 
+								</div>
+				<div class="endate">7 января, 2011 <!-- by Ikutsin --></div>
+			</div>
+		<div class="entrybody">
+			<p><a href="http://usanov.net/wp-content/uploads/2011/01/toll.jpg"><img class="alignleft size-thumbnail wp-image-1894" title="эстонская таможня" src="http://usanov.net/wp-content/uploads/2011/01/toll-150x150.jpg" alt="" width="150" height="150" /></a>Так как таможня наша умнее всего мира, они суют свои руки и нос даже в посылки номинальной стоимостью ниже той, за которую нужно платить налог. При этом, происходит это с завидной частотой (лучше бы снег так убирали). Особое внимание уделяется посылкам из Китая и Америки. Если посылка &laquo;застряла&raquo; на таможне, готовьтесь к нервотрепке. &laquo;Трудяги&raquo; из таможни вам это устроят. Есть несколько способов ускорить этот процесс, тему об уклонении палить не буду. <a href="http://usanov.net/1892-posylki-i-tamozhnya-estonii#more-1892" class="more-link">Продолжить чтение &raquo;</a></p>
+
+			<p style="font-size:75%; text-align:right">Метки:<a href="http://usanov.net/tag/gosudarstvo" rel="tag">государственность</a>, <a href="http://usanov.net/tag/estoniya" rel="tag">Эстония</a></p> 
+		</div>
+
+		<div class="entrymeta">
+			<div class="postinfo"> 
+				<!-- <span class="filedto"><a href="http://usanov.net/category/mylife/history" title="Просмотреть все записи в рубрике &laquo;Истории&raquo;" rel="category tag">Истории</a>, <a href="http://usanov.net/category/other/howto" title="Просмотреть все записи в рубрике &laquo;Как?&raquo;" rel="category tag">Как?</a> </span> -->
+				<span class="commentslink"><a href="http://usanov.net/1892-posylki-i-tamozhnya-estonii#comments" title="Комментарий к записи Посылки и таможня Эстонии">3 комментария</a></span>  
+							</div>
+
+		</div>
+	</div>
+
+			<div class="entry entry-8">
+		<div class="entrytitle_wrap">
+			<div class="entrydate"><div class="dateMonth">Янв</div><div class="dateDay">4</div>  </div>
+				<div class="entrytitle">
+								<h2><a href="http://usanov.net/1852-bitnami-django-stack-i-perebros-portov-v-virtualbox" rel="bookmark" title="Ссылка на Bitnami Django stack и переброс портов в VirtualBox">Bitnami Django stack и переброс портов в VirtualBox</a></h2> 
+								</div>
+
+				<div class="endate">4 января, 2011 <!-- by Ikutsin --></div>
+			</div>
+		<div class="entrybody">
+			<p><a href="http://usanov.net/wp-content/uploads/2011/01/soda-stacks.jpg"><img class="alignright size-thumbnail wp-image-1888" title="soda stacks bitnami" src="http://usanov.net/wp-content/uploads/2011/01/soda-stacks-150x150.jpg" alt="" width="150" height="150" /></a>Делаю один маленький проект на Django, для облегчения задачи поставил одноименный стек от Bitnami. Штука интересная и при правильном подходе ее можно заставить работать. К сожалению как и во многих других реализациях есть несколько серьезных проблем, которые перерастают в грабли. Чтобы избежать геморроя с настройкой виртуальных сетевых карт, будем использовать port forwarding (проброс портов), предусмотренный в VirtualBox для NAT соединения. Попробую рассказать о настройке этой штуки, так сказать &#8211; &laquo;Step By Step&raquo;. <a href="http://usanov.net/1852-bitnami-django-stack-i-perebros-portov-v-virtualbox#more-1852" class="more-link">Продолжить чтение &raquo;</a></p>
+			<p style="font-size:75%; text-align:right">Метки:<a href="http://usanov.net/tag/opensource" rel="tag">OpenSource</a>, <a href="http://usanov.net/tag/python" rel="tag">Python</a>, <a href="http://usanov.net/tag/virtualizaciya" rel="tag">Виртуализация</a>, <a href="http://usanov.net/tag/programmy" rel="tag">программы</a></p> 
+		</div>
+
+		<div class="entrymeta">
+			<div class="postinfo"> 
+				<!-- <span class="filedto"><a href="http://usanov.net/category/it/lead" title="Просмотреть все записи в рубрике &laquo;Управление и разработка&raquo;" rel="category tag">Управление и разработка</a> </span> -->
+				<span class="commentslink"><a href="http://usanov.net/1852-bitnami-django-stack-i-perebros-portov-v-virtualbox#comments" title="Комментарий к записи Bitnami Django stack и переброс портов в VirtualBox">3 комментария</a></span>  
+							</div>
+		</div>
+	</div>
+
+			<div class="entry entry-9">
+
+		<div class="entrytitle_wrap">
+			<div class="entrydate"><div class="dateMonth">Дек</div><div class="dateDay">21</div>  </div>
+				<div class="entrytitle">
+								<h2><a href="http://usanov.net/1850-neravenstva-veshhestvennyx-chisel" rel="bookmark" title="Ссылка на Неравенства вещественных чисел.">Неравенства вещественных чисел.</a></h2> 
+								</div>
+				<div class="endate">21 декабря, 2010 <!-- by Ikutsin --></div>
+			</div>
+
+		<div class="entrybody">
+			<p>Тема не новая, просто еще раз с ней столкнулся, в одном неожиданном для меня месте. Так что, если вы работаете со значениями с плавающей точкой, будьте готовы к вот такому, с первого взгляда не понятному явлению.</p>
+<p><a href="http://usanov.net/wp-content/uploads/2010/12/Screenshot-20.12.2010-21_20_26.png"><img class="aligncenter size-full wp-image-1853" title="Screenshot - 20.12.2010 , 21_20_26" src="http://usanov.net/wp-content/uploads/2010/12/Screenshot-20.12.2010-21_20_26.png" alt="2.0 != 1.6+0.4" width="386" height="71" /></a></p>
+<p>Это скриншот из панели WatchList VisualStudio 2010, получается, что <strong>1.6+0.4 не равно 2</strong>, если используется тип <strong>float</strong>. Попробую объяснить. <a href="http://usanov.net/1850-neravenstva-veshhestvennyx-chisel#more-1850" class="more-link">Продолжить чтение &raquo;</a></p>
+			<p style="font-size:75%; text-align:right">Метки:<a href="http://usanov.net/tag/c" rel="tag">C#</a>, <a href="http://usanov.net/tag/flash" rel="tag">Flash</a>, <a href="http://usanov.net/tag/development" rel="tag">разработка</a></p> 
+		</div>
+
+		<div class="entrymeta">
+			<div class="postinfo"> 
+				<!-- <span class="filedto"><a href="http://usanov.net/category/it/csharp" title="Просмотреть все записи в рубрике &laquo;.NET C#&raquo;" rel="category tag">.NET C#</a>, <a href="http://usanov.net/category/it" title="Просмотреть все записи в рубрике &laquo;Индустрия IT&raquo;" rel="category tag">Индустрия IT</a> </span> -->
+				<span class="commentslink"><a href="http://usanov.net/1850-neravenstva-veshhestvennyx-chisel#respond" title="Комментарий к записи Неравенства вещественных чисел.">Комментариев нет</a></span>  
+							</div>
+		</div>
+	</div>
+
+			<div class="entry entry-10">
+
+		<div class="entrytitle_wrap">
+			<div class="entrydate"><div class="dateMonth">Дек</div><div class="dateDay">10</div>  </div>
+				<div class="entrytitle">
+								<h2><a href="http://usanov.net/1839-dokumentaciya-na-osnove-kommentariev-c-koda" rel="bookmark" title="Ссылка на Документация на основе комментариев C# кода">Документация на основе комментариев C# кода</a></h2> 
+								</div>
+				<div class="endate">10 декабря, 2010 <!-- by Ikutsin --></div>
+			</div>
+
+		<div class="entrybody">
+			<p><a href="http://usanov.net/wp-content/uploads/2010/12/icub_small_new-white.gif"><img class="alignleft size-thumbnail wp-image-1845" title="comments-robot" src="http://usanov.net/wp-content/uploads/2010/12/icub_small_new-white-150x150.gif" alt="" width="150" height="150" /></a>Для описания API проекта или библиотеки, а иногда &#8211; просто придания ценности проекту и облегчения жизни следующим разработчикам используются комментарии кода. Тут 2 приема <strong>&laquo;//&raquo;</strong> комментарий кода <strong>&laquo;///&raquo;</strong> комментарий для документации с дополнительными тегами и т.д. Комментарии в тремя косыми конвертируются студией в XML файл документации (если этого не происходит, нужно поставить соответствующий флаг в настройках проекта. Но использовать XML в качестве помощи для разработчика не очень удобно, по этому есть специальный софт &#8211; преобразующий этот файл в надлежащий вид.</p>
+<p> <a href="http://usanov.net/1839-dokumentaciya-na-osnove-kommentariev-c-koda#more-1839" class="more-link">Продолжить чтение &raquo;</a></p>
+
+			<p style="font-size:75%; text-align:right">Метки:<a href="http://usanov.net/tag/c" rel="tag">C#</a>, <a href="http://usanov.net/tag/html" rel="tag">HTML</a>, <a href="http://usanov.net/tag/microsoft" rel="tag">Microsoft</a></p> 
+		</div>
+
+		<div class="entrymeta">
+			<div class="postinfo"> 
+				<!-- <span class="filedto"><a href="http://usanov.net/category/it/csharp" title="Просмотреть все записи в рубрике &laquo;.NET C#&raquo;" rel="category tag">.NET C#</a>, <a href="http://usanov.net/category/other/howto" title="Просмотреть все записи в рубрике &laquo;Как?&raquo;" rel="category tag">Как?</a> </span> -->
+				<span class="commentslink"><a href="http://usanov.net/1839-dokumentaciya-na-osnove-kommentariev-c-koda#respond" title="Комментарий к записи Документация на основе комментариев C# кода">Комментариев нет</a></span>  
+							</div>
+
+		</div>
+	</div>
+
+		<div id="nav-global" class="navigation">
+		<div class="nav-previous">
+		&nbsp;<a href="http://usanov.net/page/2" >Далее &laquo;</a>		</div>
+	</div>
+	</div>
+
+<script type="text/javascript">
+//<![CDATA[
+shutterSettings = {
+	imgDir : 'http://usanov.net/wp-content/plugins/shutter-reloaded/menu/',
+	imageCount : 1,
+	L10n : ["Previous","Next","Close","Full Size","Fit to Screen","Image","of","Loading..."]
+}
+//]]>
+</script>
+<script src="http://usanov.net/wp-content/plugins/shutter-reloaded/shutter-reloaded.js?ver=2.4" type="text/javascript"></script>
+<script type="text/javascript">
+try{shutterReloaded.init();}catch(e){}</script>
+<div id="sidebar">
+	<div id="sidebar-left">
+		<div id="polls-widget-3" class="widget_polls-widget"><div id="polls-18" class="wp-polls">
+	<form id="polls_form_18" class="wp-polls-form" action="/" method="post">
+		<p style="display: none;"><input type="hidden" name="poll_id" value="18" /></p>
+		<p style="text-align: center;"><strong>Вы нашли что искали?</strong></p>
+
+<div id="polls-18-ans" class="wp-polls-ans">
+<ul class="wp-polls-ul">
+		<li><input type="radio" id="poll-answer-96" name="poll_18" value="96" /> <label for="poll-answer-96">Да</label></li>
+		<li><input type="radio" id="poll-answer-97" name="poll_18" value="97" /> <label for="poll-answer-97">Частично</label></li>
+		<li><input type="radio" id="poll-answer-98" name="poll_18" value="98" /> <label for="poll-answer-98">Нет</label></li>
+		</ul>
+<p style="text-align: center;"><input type="button" name="vote" value="   Голос   " class="Buttons" onclick="poll_vote(18);" /></p>
+
+<p style="text-align: center;"><a href="#ViewPollResults" onclick="poll_result(18); return false;" title="Просмотреть результаты опроса">Просмотреть результаты</a></p>
+</div>
+	</form>
+</div>
+<div id="polls-18-loading" class="wp-polls-loading"><img src="http://usanov.net/wp-content/plugins/wp-polls/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="wp-polls-image" />&nbsp;Loading ...</div>
+<ul>
+<li><a href="http://usanov.net/pollsarchive/">Архив опросов</a></li>
+</ul></div><div id="widget_openxwpwidget-5" class="widget_openxwpwidget"><DIV align='center'>
+<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://x.binaryanalysis.net/www/delivery/ajs.php':'http://x.binaryanalysis.net/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=2");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://x.binaryanalysis.net/www/delivery/ck.php?n=6e550b&amp;cb=65bf2127dd321ef38e0d62668b2be4df' target='_blank'><img src='http://x.binaryanalysis.net/www/delivery/avw.php?zoneid=2&amp;cb=65bf2127dd321ef38e0d62668b2be4df&amp;n=6e550b' border='0' alt='' /></a></noscript></DIV></div><div id="text-394358101" class="widget_text">			<div class="textwidget"><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2470875-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<hr/></div>
+		</div><div id="imoney-links" class="itex_money_itex_m_widget_links"><h4>Спонсорство</h4><ul><li><div>Проще простого купить <a href="http://www.spektr-plus.ru/" target="_blank">телевизор (рязань)</a>. </div><div>Быстро <a href="http://bhm.com.ua/" target="_blank">подарки</a> с фото близких. </div><div>Романтическое свидание <a href="http://www.event-creative.ru/content/neobychnoe-pozdravlenie" target="_blank">подарок директору, 16bd</a> быстрая доставка.. </div><div>обратился в <a href="http://www.unievents.ru/" target="_blank">праздничное агентство</a>, все гут. </div></li></ul></div>	</div>
+
+	<div id="sidebar-right">
+		<div class="search-form">
+			 
+			<form method="get" id="searchform" action="http://usanov.net/"> 
+			<input type="text" value="Искать..." name="s" id="s" onblur="if (this.value == '')  
+			{this.value = 'Искать...';}"  
+			onfocus="if (this.value == 'Искать...')  
+			{this.value = '';}" /> 
+			<input type="hidden" id="searchsubmit" /> 
+			</form>
+		</div>
+		<div id="recent-comments" class="widget_rrm_recent_comments"><h4>Последние комментарии</h4><ul><li><b>Ikutsin:</b> 
+<a href="http://usanov.net/1943-chto-ya-kupil-na-zarabotannye-ot-bloga-dengi">Не, с соседями все в порядке я сильно не наглею ;)</a></li>
+
+<li><b>PACS:</b> 
+<a href="http://usanov.net/139-polnaya-informaciya-o-sajte">Вижу линк, спасибо - посмотрю.</a></li>
+
+<li><b>Сергей:</b> 
+<a href="http://usanov.net/1247-tak-li-xorosh-asp-net-mvc">ASP.NET MVC придуман исключительно для гурманов супер объектно-ориентированного программирования. Вм</a></li>
+
+<li><b>Ikutsin:</b> 
+<a href="http://usanov.net/1852-bitnami-django-stack-i-perebros-portov-v-virtualbox">> вставить эту строку на выполнение после загрузки это файл: /etc/rc.local</a></li>
+
+<li><b>cijman:</b> 
+
+<a href="http://usanov.net/1943-chto-ya-kupil-na-zarabotannye-ot-bloga-dengi">наверное соседи очень рады этому подарку самому себе ))</a></li>
+
+<li><b>Ikutsin:</b> 
+<a href="http://usanov.net/9-soft-kotoryj-mozhno-ispolzovat-na-rabote">Notepad++ есть в списке, как альтернатива - можно добавить PSPad - тоже, очень не плохой редактор.</a></li>
+
+<li><b>kpoT:</b> 
+<a href="http://usanov.net/1112-javascript-shel-shell-v-kontekste-issleduemoj-stranicy">лиса сила :) !</a></li>
+
+<li><b>kpoT:</b> 
+<a href="http://usanov.net/1797-ustanovka-virtualnogo-lamp-servera-na-osnove-virtualbox-i-ubuntu">Огромное спасибо, все очень подробно расписано :) Статья очень полезная, добавляю в букмаркс :)</a></li>
+
+<li><b>Ikutsin:</b> 
+<a href="http://usanov.net/139-polnaya-informaciya-o-sajte">SeoQuake недостаточно?</a></li>
+
+<li><b>влад:</b> 
+<a href="http://usanov.net/51-skajp-dopolnitelnye-ikonki">я сначала попытался "угадать" их, несколько угадал, флаги нашёл в самом скайпе(как они прописываются</a></li>
+</ul><!-- Recent Comments took 69.640 ms --></div><div id="categories-3" class="widget_categories"><h4>Рубрики</h4>		<ul>
+	<li class="cat-item cat-item-5"><a href="http://usanov.net/category/it/csharp"  title="Программирование на языке C#." rel="nofollow">.NET C#</a> (51)
+
+</li>
+	<li class="cat-item cat-item-18"><a href="http://usanov.net/category/it/flash"  title="Адоб Флеш. Программы и новости." rel="nofollow">Flash</a> (5)
+</li>
+	<li class="cat-item cat-item-19"><a href="http://usanov.net/category/it/js"  title="Все что связано с версткой и технологией AJAX." rel="nofollow">HTML, AJAX, JS &amp; CSS</a> (13)
+</li>
+	<li class="cat-item cat-item-6"><a href="http://usanov.net/category/it/mssql"  title="База данных MSSQL." rel="nofollow">MSSQL</a> (6)
+
+</li>
+	<li class="cat-item cat-item-97"><a href="http://usanov.net/category/it/python-it"  title="Просмотреть все записи в рубрике &laquo;Python&raquo;" rel="nofollow">Python</a> (9)
+</li>
+	<li class="cat-item cat-item-7"><a href="http://usanov.net/category/it/ai" title="Автоматизация процессов, автоматический поиск решений.
+Распределенные вычисления, нечеткие и экспертные системы, искусственный интеллект.">Автоматизация и ИИ</a> (2)
+</li>
+	<li class="cat-item cat-item-17"><a href="http://usanov.net/category/it/progs/myutils"  title="Маленькие проекты и маленькие авторские утилиты." rel="nofollow">Авторские утилиты</a> (9)
+</li>
+	<li class="cat-item cat-item-11"><a href="http://usanov.net/category/other/money"  title="Все вокруг денег, авторские наблюдения." rel="nofollow">Деньги</a> (15)
+
+</li>
+	<li class="cat-item cat-item-4"><a href="http://usanov.net/category/it"  title="Инфо-технологии, информатика, программирование, IT управление." rel="nofollow">Индустрия IT</a> (19)
+</li>
+	<li class="cat-item cat-item-14"><a href="http://usanov.net/category/mylife/history"  title="Истории из моей жизни." rel="nofollow">Истории</a> (16)
+</li>
+	<li class="cat-item cat-item-10"><a href="http://usanov.net/category/other/howto"  title="Авторские описания как делать те или иные вещи." rel="nofollow">Как?</a> (32)
+</li>
+	<li class="cat-item cat-item-15"><a href="http://usanov.net/category/mylife/lab"  title="Лаборатория, наблюдения о реальном мире." rel="nofollow">Лаборатория</a> (14)
+
+</li>
+	<li class="cat-item cat-item-8"><a href="http://usanov.net/category/other"  title="Обзоры, программы и другие интересные темы." rel="nofollow">Мир и сеть</a> (3)
+</li>
+	<li class="cat-item cat-item-12"><a href="http://usanov.net/category/mylife"  title="Все что меня окружает" rel="nofollow">Моя жизнь</a> (24)
+</li>
+	<li class="cat-item cat-item-9"><a href="http://usanov.net/category/other/review"  title="Обзоры различных сервисов в сети и вне ее." rel="nofollow">Обзоры</a> (58)
+</li>
+	<li class="cat-item cat-item-16"><a href="http://usanov.net/category/it/progs"  title="Вспомогательные программы." rel="nofollow">Программы</a> (7)
+
+</li>
+	<li class="cat-item cat-item-20"><a href="http://usanov.net/category/it/lead"  title="Управление проектами" rel="nofollow">Управление и разработка</a> (16)
+</li>
+	<li class="cat-item cat-item-13"><a href="http://usanov.net/category/other/humor"  title="Юмористичные ссылки и анекдоты." rel="nofollow">Юмор</a> (15)
+</li>
+		</ul>
+</div><div id="tag_cloud-2" class="widget_tag_cloud"><h4>Метки</h4><div><a href='http://usanov.net/tag/appengine' class='tag-link-101' title='6 записей' style='font-size: 13.579710144928pt;'>appengine</a>
+<a href='http://usanov.net/tag/aspnet' class='tag-link-75' title='16 записей' style='font-size: 17.434782608696pt;'>ASP.NET</a>
+
+<a href='http://usanov.net/tag/c' class='tag-link-71' title='39 записей' style='font-size: 21.188405797101pt;'>C#</a>
+<a href='http://usanov.net/tag/dreamhost' class='tag-link-84' title='2 записи' style='font-size: 9.8260869565217pt;'>dreamhost</a>
+<a href='http://usanov.net/tag/filebase' class='tag-link-24' title='3 записи' style='font-size: 11.04347826087pt;'>FileBase</a>
+<a href='http://usanov.net/tag/flash' class='tag-link-18' title='9 записей' style='font-size: 15.101449275362pt;'>Flash</a>
+<a href='http://usanov.net/tag/forex' class='tag-link-54' title='6 записей' style='font-size: 13.579710144928pt;'>Forex</a>
+<a href='http://usanov.net/tag/html' class='tag-link-34' title='16 записей' style='font-size: 17.434782608696pt;'>HTML</a>
+<a href='http://usanov.net/tag/javascript' class='tag-link-86' title='5 записей' style='font-size: 12.869565217391pt;'>JavaScript</a>
+<a href='http://usanov.net/tag/linq' class='tag-link-78' title='1 запись' style='font-size: 8pt;'>LINQ</a>
+<a href='http://usanov.net/tag/linux' class='tag-link-90' title='5 записей' style='font-size: 12.869565217391pt;'>Linux</a>
+
+<a href='http://usanov.net/tag/metatrader' class='tag-link-58' title='2 записи' style='font-size: 9.8260869565217pt;'>Metatrader</a>
+<a href='http://usanov.net/tag/microsoft' class='tag-link-80' title='9 записей' style='font-size: 15.101449275362pt;'>Microsoft</a>
+<a href='http://usanov.net/tag/mobile' class='tag-link-99' title='2 записи' style='font-size: 9.8260869565217pt;'>mobile</a>
+<a href='http://usanov.net/tag/mono' class='tag-link-85' title='5 записей' style='font-size: 12.869565217391pt;'>mono</a>
+<a href='http://usanov.net/tag/office' class='tag-link-77' title='1 запись' style='font-size: 8pt;'>office</a>
+<a href='http://usanov.net/tag/opensource' class='tag-link-61' title='32 записи' style='font-size: 20.376811594203pt;'>OpenSource</a>
+<a href='http://usanov.net/tag/php' class='tag-link-81' title='5 записей' style='font-size: 12.869565217391pt;'>PHP</a>
+<a href='http://usanov.net/tag/python' class='tag-link-94' title='11 записей' style='font-size: 15.913043478261pt;'>Python</a>
+<a href='http://usanov.net/tag/shareholder' class='tag-link-42' title='6 записей' style='font-size: 13.579710144928pt;'>shareholder</a>
+
+<a href='http://usanov.net/tag/template' class='tag-link-105' title='3 записи' style='font-size: 11.04347826087pt;'>Template</a>
+<a href='http://usanov.net/tag/webmoney' class='tag-link-22' title='4 записи' style='font-size: 12.057971014493pt;'>webmoney</a>
+<a href='http://usanov.net/tag/windows' class='tag-link-52' title='7 записей' style='font-size: 14.086956521739pt;'>Windows</a>
+<a href='http://usanov.net/tag/virtualizaciya' class='tag-link-91' title='4 записи' style='font-size: 12.057971014493pt;'>Виртуализация</a>
+<a href='http://usanov.net/tag/dobavit-metku' class='tag-link-79' title='1 запись' style='font-size: 8pt;'>Добавить метку</a>
+<a href='http://usanov.net/tag/estoniya' class='tag-link-47' title='18 записей' style='font-size: 17.942028985507pt;'>Эстония</a>
+<a href='http://usanov.net/tag/avtorskie-programmy' class='tag-link-53' title='13 записей' style='font-size: 16.623188405797pt;'>авторские программы</a>
+<a href='http://usanov.net/tag/baza-dannyx' class='tag-link-73' title='7 записей' style='font-size: 14.086956521739pt;'>база данных</a>
+<a href='http://usanov.net/tag/video' class='tag-link-56' title='7 записей' style='font-size: 14.086956521739pt;'>видео</a>
+
+<a href='http://usanov.net/tag/gosudarstvo' class='tag-link-38' title='8 записей' style='font-size: 14.594202898551pt;'>государственность</a>
+<a href='http://usanov.net/tag/dengi' class='tag-link-30' title='25 записей' style='font-size: 19.260869565217pt;'>деньги</a>
+<a href='http://usanov.net/tag/domen' class='tag-link-66' title='6 записей' style='font-size: 13.579710144928pt;'>домен</a>
+<a href='http://usanov.net/tag/internet' class='tag-link-36' title='36 записей' style='font-size: 20.884057971014pt;'>интернет</a>
+<a href='http://usanov.net/tag/kartinki' class='tag-link-67' title='9 записей' style='font-size: 15.101449275362pt;'>картинки</a>
+<a href='http://usanov.net/tag/knigi' class='tag-link-55' title='2 записи' style='font-size: 9.8260869565217pt;'>книги</a>
+<a href='http://usanov.net/tag/novosti' class='tag-link-100' title='6 записей' style='font-size: 13.579710144928pt;'>новости</a>
+<a href='http://usanov.net/tag/obzor' class='tag-link-29' title='39 записей' style='font-size: 21.188405797101pt;'>обзор</a>
+<a href='http://usanov.net/tag/obo-mne' class='tag-link-68' title='23 записи' style='font-size: 18.95652173913pt;'>обо мне</a>
+
+<a href='http://usanov.net/tag/programmy' class='tag-link-60' title='19 записей' style='font-size: 18.144927536232pt;'>программы</a>
+<a href='http://usanov.net/tag/rabota' class='tag-link-41' title='12 записей' style='font-size: 16.217391304348pt;'>работа</a>
+<a href='http://usanov.net/tag/development' class='tag-link-70' title='47 записей' style='font-size: 22pt;'>разработка</a>
+<a href='http://usanov.net/tag/sverx-estestvennoe' class='tag-link-44' title='5 записей' style='font-size: 12.869565217391pt;'>сверх естественное</a>
+<a href='http://usanov.net/tag/servis' class='tag-link-39' title='15 записей' style='font-size: 17.130434782609pt;'>сервис</a>
+<a href='http://usanov.net/tag/spravochnik' class='tag-link-50' title='29 записей' style='font-size: 19.971014492754pt;'>справочник</a>
+<a href='http://usanov.net/tag/yumor' class='tag-link-35' title='14 записей' style='font-size: 16.927536231884pt;'>юмор</a></div>
+</div><div id="archives-3" class="widget_archive"><h4>Архивы</h4>		<ul>
+
+			<li><a href='http://usanov.net/date/2011/02' title='Февраль 2011'>Февраль 2011</a>&nbsp;(4)</li>
+	<li><a href='http://usanov.net/date/2011/01' title='Январь 2011'>Январь 2011</a>&nbsp;(4)</li>
+	<li><a href='http://usanov.net/date/2010/12' title='Декабрь 2010'>Декабрь 2010</a>&nbsp;(3)</li>
+	<li><a href='http://usanov.net/date/2010/11' title='Ноябрь 2010'>Ноябрь 2010</a>&nbsp;(9)</li>
+	<li><a href='http://usanov.net/date/2010/09' title='Сентябрь 2010'>Сентябрь 2010</a>&nbsp;(6)</li>
+
+	<li><a href='http://usanov.net/date/2010/08' title='Август 2010'>Август 2010</a>&nbsp;(6)</li>
+	<li><a href='http://usanov.net/date/2010/07' title='Июль 2010'>Июль 2010</a>&nbsp;(6)</li>
+	<li><a href='http://usanov.net/date/2010/06' title='Июнь 2010'>Июнь 2010</a>&nbsp;(2)</li>
+	<li><a href='http://usanov.net/date/2010/05' title='Май 2010'>Май 2010</a>&nbsp;(8)</li>
+	<li><a href='http://usanov.net/date/2010/04' title='Апрель 2010'>Апрель 2010</a>&nbsp;(9)</li>
+
+	<li><a href='http://usanov.net/date/2010/03' title='Март 2010'>Март 2010</a>&nbsp;(12)</li>
+	<li><a href='http://usanov.net/date/2010/02' title='Февраль 2010'>Февраль 2010</a>&nbsp;(8)</li>
+	<li><a href='http://usanov.net/date/2010/01' title='Январь 2010'>Январь 2010</a>&nbsp;(3)</li>
+	<li><a href='http://usanov.net/date/2009/12' title='Декабрь 2009'>Декабрь 2009</a>&nbsp;(2)</li>
+	<li><a href='http://usanov.net/date/2009/11' title='Ноябрь 2009'>Ноябрь 2009</a>&nbsp;(11)</li>
+
+	<li><a href='http://usanov.net/date/2009/10' title='Октябрь 2009'>Октябрь 2009</a>&nbsp;(4)</li>
+	<li><a href='http://usanov.net/date/2009/09' title='Сентябрь 2009'>Сентябрь 2009</a>&nbsp;(6)</li>
+	<li><a href='http://usanov.net/date/2009/08' title='Август 2009'>Август 2009</a>&nbsp;(2)</li>
+	<li><a href='http://usanov.net/date/2009/03' title='Март 2009'>Март 2009</a>&nbsp;(3)</li>
+	<li><a href='http://usanov.net/date/2009/02' title='Февраль 2009'>Февраль 2009</a>&nbsp;(10)</li>
+
+	<li><a href='http://usanov.net/date/2009/01' title='Январь 2009'>Январь 2009</a>&nbsp;(1)</li>
+	<li><a href='http://usanov.net/date/2008/12' title='Декабрь 2008'>Декабрь 2008</a>&nbsp;(9)</li>
+	<li><a href='http://usanov.net/date/2008/11' title='Ноябрь 2008'>Ноябрь 2008</a>&nbsp;(4)</li>
+	<li><a href='http://usanov.net/date/2008/10' title='Октябрь 2008'>Октябрь 2008</a>&nbsp;(5)</li>
+	<li><a href='http://usanov.net/date/2008/09' title='Сентябрь 2008'>Сентябрь 2008</a>&nbsp;(6)</li>
+
+	<li><a href='http://usanov.net/date/2008/08' title='Август 2008'>Август 2008</a>&nbsp;(6)</li>
+	<li><a href='http://usanov.net/date/2008/07' title='Июль 2008'>Июль 2008</a>&nbsp;(9)</li>
+	<li><a href='http://usanov.net/date/2008/06' title='Июнь 2008'>Июнь 2008</a>&nbsp;(7)</li>
+	<li><a href='http://usanov.net/date/2008/05' title='Май 2008'>Май 2008</a>&nbsp;(3)</li>
+	<li><a href='http://usanov.net/date/2008/04' title='Апрель 2008'>Апрель 2008</a>&nbsp;(5)</li>
+
+	<li><a href='http://usanov.net/date/2008/03' title='Март 2008'>Март 2008</a>&nbsp;(11)</li>
+	<li><a href='http://usanov.net/date/2008/02' title='Февраль 2008'>Февраль 2008</a>&nbsp;(7)</li>
+	<li><a href='http://usanov.net/date/2008/01' title='Январь 2008'>Январь 2008</a>&nbsp;(15)</li>
+	<li><a href='http://usanov.net/date/2007/12' title='Декабрь 2007'>Декабрь 2007</a>&nbsp;(8)</li>
+	<li><a href='http://usanov.net/date/2007/11' title='Ноябрь 2007'>Ноябрь 2007</a>&nbsp;(4)</li>
+
+		</ul>
+</div>	</div>
+</div></div>
+<div id="footer">
+	<div id="credits" style="text-align:right">
+		<div id="ftnav"><span class="rss"><a href="http://usanov.net/feed" title="Subscribe to RSS" rel="nofollow"><abbr title="Subscribe to RSS">RSS</abbr></a></span></div>
+		<small>Copyright &copy; 2011  <strong>Все, что меня окружает</strong> All rights reserved. Thanks Vladimir Prelovac for the theme.</small>.
+		<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {
+	ajax_url: "http://usanov.net/wp-content/plugins/wp-polls/wp-polls.php",
+	text_wait: "Your last request is still being processed. Please wait a while ...",
+	text_valid: "Please choose a valid poll answer.",
+	text_multiple: "Maximum number of choices allowed: ",
+	show_loading: "1",
+	show_fading: "1"
+};
+/* ]]> */
+
+</script>
+<script type='text/javascript' src='http://usanov.net/wp-content/plugins/wp-polls/polls-js.js?ver=2.50'></script>
+<!--38 queries. 0,707 seconds.-->
+	</div>
+</div>
+</body>
+</html>
+<!-- Dynamic page generated in 0.700 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2011-02-18 15:31:17 -->

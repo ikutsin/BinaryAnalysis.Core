@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project DefaultTargets="Start" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  
+  <PropertyGroup>
+    <Configuration Condition="$(Configuration)==''">Debug</Configuration>
+    <WorkingFolder>$(MSBuildProjectDirectory)\..\..\</WorkingFolder>
+    <TargetFolder>M:\BinaryAnalysis.Core\</TargetFolder>
+  </PropertyGroup>
+  <!--:::  Build  :::::::::::::::::::::::::::-->
+  <ItemGroup>
+    <ProjectToBuild Include="$(WorkingFolder)BinaryAnalysis.Core.sln">
+      <Properties>Configuration=$(Configuration)</Properties>
+    </ProjectToBuild>
+  </ItemGroup>
+  <Target Name="Build">
+    <MSBuild Projects="@(ProjectToBuild)"/>
+  </Target>
+  <!--:::  Copy :::::::::::::::::::::::::::-->
+  <ItemGroup>
+    <CoreAssemblies Include="$(WorkingFolder)Components\**\bin\$(Configuration)\*.dll" />
+    <CoreAssemblies Include="$(WorkingFolder)BinaryAnalysis.Visuals\**\bin\$(Configuration)\*.dll" />
+    
+    <CoreJS Include="$(WorkingFolder)BinaryAnalysis.Visuals\Visuals.Annotations\JS\**\*.*" />
+    <CoreJS Include="$(WorkingFolder)BinaryAnalysis.Visuals\Visuals.Debug\JS\**\*.*" />
+    <CoreJS Include="$(WorkingFolder)BinaryAnalysis.Visuals\Visuals.Scheduler\JS\**\*.*" />
+    <CoreJS Include="$(WorkingFolder)Components\BinaryAnalysis.UI\JS\**\*.*"
+            Exclude="$(WorkingFolder)Components\BinaryAnalysis.UI\JS\vsdoc\*.*" />
+    
+    <CoreDebug Include="$(WorkingFolder)Components\**\bin\$(Configuration)\*.pdb" />
+    <CoreDebug Include="$(WorkingFolder)BinaryAnalysis.Visuals\**\bin\$(Configuration)\*.pdb" />
+  </ItemGroup>
+  <Target Name="Copy">
+    <Copy SourceFiles="@(CoreAssemblies)" DestinationFiles="@(CoreAssemblies->'$(TargetFolder)\%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(CoreJS)" DestinationFiles="@(CoreJS->'$(TargetFolder)\JS\%(RecursiveDir)%(Filename)%(Extension)')" />
+  </Target>
+  <Target Name="CopyDebug" Condition="$(Configuration)=='Debug'">
+    <Copy SourceFiles="@(CoreAssemblies)" DestinationFiles="@(CoreAssemblies->'$(TargetFolder)\%(Filename)%(Extension)')" />
+  </Target>
+
+  <!--:::  Start  :::::::::::::::::::::::::::-->
+  <Target Name="Start">
+    <CallTarget Targets="Build" />
+    <CallTarget Targets="Copy" />
+    <CallTarget Targets="CopyDebug" />
+    <Message Text="Done" />
+  </Target>
+</Project>

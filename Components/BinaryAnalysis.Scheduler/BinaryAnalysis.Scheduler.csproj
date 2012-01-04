@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D1BC45F-1471-46CD-95AE-8E5E9FDA8ABC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BinaryAnalysis.Scheduler</RootNamespace>
+    <AssemblyName>BinaryAnalysis.Scheduler</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.CSharp">
+      <HintPath>..\..\Resources\Components\libs-common\monoscharp\Mono.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Autofac, Version=2.5.1.827, Culture=neutral, PublicKeyToken=17863af14b0044da">
+      <HintPath>..\..\Resources\Components\libs-common\Autofac\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate, Version=1.2.0.694, Culture=neutral, PublicKeyToken=8aa435e3cb308880">
+      <HintPath>..\..\Resources\Components\libs-common\NHibernate\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821">
+      <HintPath>..\..\Resources\Components\libs-common\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="NCrontab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\Resources\Components\libs-common\NCrontab.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.0.2.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>..\..\Resources\Components\libs-common\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4">
+      <HintPath>..\..\Resources\Components\libs-common\NHibernate\NHibernate.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Resources\Properties\SolutionAssemblyInfo.cs">
+      <Link>Properties\SolutionAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="SchedulerInteractiveBase.cs" />
+    <Compile Include="Scheduler\RecurrencyConfig.cs" />
+    <Compile Include="Scheduler\RecurrencyController.cs" />
+    <Compile Include="Scheduler\Data\RecurrencyRepository.cs" />
+    <Compile Include="Scheduler\Data\RecurrencyBoxMap.cs" />
+    <Compile Include="Scheduler\Data\RecurrencyEntity.cs" />
+    <Compile Include="Scheduler\Data\ScheduleBoxMap.cs" />
+    <Compile Include="Scheduler\Data\ScheduleEntity.cs" />
+    <Compile Include="Scheduler\Data\ScheduleRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SchedulerContracts.cs" />
+    <Compile Include="Scheduler\PersistentSchedulerTask.cs" />
+    <Compile Include="Scheduler\SchedulerFactoryTaskScheduler.cs" />
+    <Compile Include="Scheduler\SchedulerInstance.cs" />
+    <Compile Include="ScriptedCS\EvaluationHelper.cs" />
+    <Compile Include="ScriptedCS\InteractiveBase.cs" />
+    <Compile Include="ScriptedCS\ScsRunnerScript.cs" />
+    <Compile Include="Task\Commands\RunGoalInlineScriptCommand.cs" />
+    <Compile Include="Task\Flow\FlowException.cs" />
+    <Compile Include="Task\Flow\ScriptFlow.cs" />
+    <Compile Include="Task\Flow\ScriptFlow_check.cs" />
+    <Compile Include="Task\Flow\ScriptFlow_dump.cs" />
+    <Compile Include="Task\Flow\ScriptFlow_message.cs" />
+    <Compile Include="Task\Flow\FlowAssertion.cs" />
+    <Compile Include="Task\Script\SchedulerTaskScriptDependencies.cs" />
+    <Compile Include="Task\Script\ScriptUtilityCommands.cs" />
+    <Compile Include="Task\Script\IScriptUtilityCommand.cs" />
+    <Compile Include="Task\Script\ScriptUtility.cs" />
+    <Compile Include="Task\Script\ISchedulerTaskScript.cs" />
+    <Compile Include="Task\Settings\DetachedTaskSettings.cs" />
+    <Compile Include="Task\Settings\ITaskSettings.cs" />
+    <Compile Include="Task\Settings\ProgressStatus.cs" />
+    <Compile Include="Task\SchedulerTask.cs" />
+    <Compile Include="Scheduler\EntityTaskSettings.cs" />
+    <Compile Include="TaskFactory.cs" />
+    <Compile Include="TaskParameters.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BinaryAnalysis.Box\BinaryAnalysis.Box.csproj">
+      <Project>{2B477514-147E-46CD-A01C-17B7B1E04DF3}</Project>
+      <Name>BinaryAnalysis.Box</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BinaryAnalysis.Data\BinaryAnalysis.Data.csproj">
+      <Project>{CFA1F858-2EDC-43B3-9C21-F8C528F1F29B}</Project>
+      <Name>BinaryAnalysis.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

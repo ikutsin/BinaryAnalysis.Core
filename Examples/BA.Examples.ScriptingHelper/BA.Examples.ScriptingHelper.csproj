@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7338A2EF-5444-46B9-83F7-DDD055C3C4EF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BA.Examples.ScriptingHelper</RootNamespace>
+    <AssemblyName>BA.Examples.ScriptingHelper</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\..\Resources\Components\libs-common\Autofac\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Configuration">
+      <HintPath>..\..\Resources\Components\libs-common\Autofac\Autofac.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="FiddlerCore4">
+      <HintPath>..\..\Resources\Components\libs-ms\FiddlerCore\FiddlerCore4.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\Resources\Components\libs-common\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WPFToolkit.Extended">
+      <HintPath>..\..\Resources\Components\libs-ms\WPFToolkit.Extended.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="..\..\Resources\Properties\SolutionAssemblyInfo.cs">
+      <Link>Properties\SolutionAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="Bootstrap.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="Models\AutoCompleteEntry.cs" />
+    <Compile Include="Models\CodeGeneration.cs" />
+    <Compile Include="Models\DictionaryModel.cs" />
+    <Compile Include="Models\LogEntry.cs" />
+    <Compile Include="Models\NameValueItem.cs" />
+    <Compile Include="Models\ObservableHierarchy.cs" />
+    <Compile Include="Models\TaxonomyHierarchy.cs" />
+    <Compile Include="NameValueListWindow.xaml.cs">
+      <DependentUpon>NameValueListWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SimpleTextWindow.xaml.cs">
+      <DependentUpon>SimpleTextWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StateBrowserWindow.xaml.cs">
+      <DependentUpon>StateBrowserWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HtmlNodeHierarchy.cs" />
+    <Compile Include="Models\ServiceSettingsEntryBoxMapModel.cs" />
+    <Compile Include="TaxonomyTreeWindow.xaml.cs">
+      <DependentUpon>TaxonomyTreeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\AbstractServiceGridVm.cs" />
+    <Compile Include="ViewModels\AbstractVm.cs" />
+    <Compile Include="ViewModels\Commands\RelayCommand.cs" />
+    <Compile Include="ViewModels\Commands\WindowOpeningCommands.cs" />
+    <Compile Include="ViewModels\Converters\TaxonomyToNameConverter.cs" />
+    <Compile Include="ViewModels\Converters\HtmlNodeToNameConverter.cs" />
+    <Compile Include="ViewModels\Converters\XElementToNameConverter.cs" />
+    <Compile Include="ViewModels\AbstractPageHtmlDomInformationVm.cs" />
+    <Compile Include="ViewModels\FiddlerPageDetailVm.cs" />
+    <Compile Include="ViewModels\FiddlerPageHtmlDomInformationVm.cs" />
+    <Compile Include="ViewModels\FiddlerPageFixedXmlnformationVm.cs" />
+    <Compile Include="ViewModels\NameValueGridVm.cs" />
+    <Compile Include="ViewModels\StatePageHtmlDomInformationVm.cs" />
+    <Compile Include="ViewModels\ServiceControlWindowVm.cs" />
+    <Compile Include="ViewModels\ServiceSettingGridVm.cs" />
+    <Compile Include="ViewModels\ServiceSchedulesGridVm.cs" />
+    <Compile Include="ViewModels\StateBrowserWindowVm.cs" />
+    <Compile Include="ViewModels\TaxonomyTreeVm.cs" />
+    <Compile Include="ViewModels\Utils\FiddlerHelper.cs" />
+    <Compile Include="Logic\FiddlerSessionBrowsingResponse.cs" />
+    <Compile Include="Logic\FiddlerSessionHolder.cs" />
+    <Compile Include="Models\TagInfo.cs" />
+    <Compile Include="ServiceControlWindow.xaml.cs">
+      <DependentUpon>ServiceControlWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\Commands\FiddlerBrowserNavigationCommands.cs" />
+    <Compile Include="ViewModels\Commands\FiddlerHistoryCommands.cs" />
+    <Compile Include="ViewModels\FiddlerHistoryOutputVm.cs" />
+    <Compile Include="ViewModels\FiddlerWindowVm.cs" />
+    <Compile Include="ViewModels\FiddlerPageInformationVm.cs" />
+    <Compile Include="Views\AutoCompleteTextBox.xaml.cs">
+      <DependentUpon>AutoCompleteTextBox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FiddlerPageDetail.xaml.cs">
+      <DependentUpon>FiddlerPageDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FiddlerPageFixedXmlView.xaml.cs">
+      <DependentUpon>FiddlerPageFixedXmlView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FiddlerPageFixedXmlElementView.xaml.cs">
+      <DependentUpon>FiddlerPageFixedXmlElementView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FiddlerPageHtmlDomElementView.xaml.cs">
+      <DependentUpon>FiddlerPageHtmlDomElementView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FiddlerPageHtmlDomView.xaml.cs">
+      <DependentUpon>FiddlerPageHtmlDomView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NameValueGridView.xaml.cs">
+      <DependentUpon>NameValueGridView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RegexTestView.xaml.cs">
+      <DependentUpon>RegexTestView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ServiceSettingGridView.xaml.cs">
+      <DependentUpon>ServiceSettingGridView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ServiceSchedulesGridView.xaml.cs">
+      <DependentUpon>ServiceSchedulesGridView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TaxonomyTreeView.xaml.cs">
+      <DependentUpon>TaxonomyTreeView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="SimpleTextWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="NameValueListWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StateBrowserWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="FiddlerWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FiddlerWindow.xaml.cs">
+      <DependentUpon>FiddlerWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="ServiceControlWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TaxonomyTreeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AutoCompleteTextBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\FiddlerPageDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\FiddlerPageFixedXmlView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\FiddlerPageFixedXmlElementView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\FiddlerPageHtmlDomElementView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\FiddlerPageHtmlDomView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\RegexTestView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\NameValueGridView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ServiceSettingGridView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Resources\Res.Core.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ServiceSchedulesGridView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TaxonomyTreeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Components\HtmlAgilityPack\HtmlAgilityPack.csproj">
+      <Project>{193BB801-054F-4729-9D5D-FCE1E32594BF}</Project>
+      <Name>HtmlAgilityPack</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BA.Examples.ServiceClient\BA.Examples.ServiceClient.csproj">
+      <Project>{B7318FE2-3A25-4D06-B631-47B145BDD36C}</Project>
+      <Name>BA.Examples.ServiceClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Components\BinaryAnalysis.Browsing\BinaryAnalysis.Browsing.csproj">
+      <Project>{9BDB0B5D-5FCE-4B04-95E8-4E68C1C3FF44}</Project>
+      <Name>BinaryAnalysis.Browsing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MSHTML">
+      <Guid>{3050F1C5-98B5-11CF-BB82-00AA00BDCE0B}</Guid>
+      <VersionMajor>4</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

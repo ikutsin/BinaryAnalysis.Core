@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{9CD3C86E-6347-426E-9756-32E142DAC17D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BinaryAnalysis.Tests</RootNamespace>
+    <AssemblyName>BinaryAnalysis.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Moles.Framework, Version=0.94.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="RazorEngine">
+      <HintPath>..\..\Resources\Components\libs-common\RazorEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+    </Reference>
+    <Reference Include="Autofac, Version=2.5.1.827, Culture=neutral, PublicKeyToken=17863af14b0044da">
+      <HintPath>..\..\Resources\Components\libs-common\Autofac\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Configuration, Version=2.5.1.827, Culture=neutral, PublicKeyToken=17863af14b0044da">
+      <HintPath>..\..\Resources\Components\libs-common\Autofac\Autofac.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="AutofacContrib.DynamicProxy2, Version=2.4.4.705, Culture=neutral, PublicKeyToken=17863af14b0044da">
+      <HintPath>..\..\Resources\Components\libs-common\Autofac\AutofacContrib.DynamicProxy2.dll</HintPath>
+    </Reference>
+    <Reference Include="Ciloci.Flee, Version=0.9.26.0, Culture=neutral, PublicKeyToken=c8526a021ef298ed">
+      <HintPath>..\..\Resources\Components\libs-common\Flee\Ciloci.Flee.dll</HintPath>
+    </Reference>
+    <Reference Include="EmitMapper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\Resources\Components\libs-common\EmitMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentNHibernate, Version=1.2.0.694, Culture=neutral, PublicKeyToken=8aa435e3cb308880">
+      <HintPath>..\..\Resources\Components\libs-common\NHibernate\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Jint, Version=0.9.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\Resources\Components\libs-common\Jint.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821">
+      <HintPath>..\..\Resources\Components\libs-common\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.0.2.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>..\..\Resources\Components\libs-common\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4">
+      <HintPath>..\..\Resources\Components\libs-common\NHibernate\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.ByteCode.Castle, Version=3.0.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4">
+      <HintPath>..\..\Resources\Components\libs-common\NHibernate\NHibernate.ByteCode.Castle.dll</HintPath>
+    </Reference>
+    <Reference Include="NHibernate.Search, Version=2.0.0.1001, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\Resources\Components\libs-common\NHibernate\NHibernate.Search.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.5.2.9222, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77">
+      <HintPath>..\..\Resources\Components\libs-common\NUnit\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="SgmlReaderDll, Version=1.8.7.14535, Culture=neutral, PublicKeyToken=46b2db9ca481831b">
+      <HintPath>..\..\Resources\Components\libs-common\SgmlReaderDll.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139">
+      <HintPath>..\..\Resources\Components\libs-ms\DataProviders\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive, Version=1.0.10621.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\..\Resources\Components\libs-common\System.Reactive.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Resources\Properties\SolutionAssemblyInfo.cs">
+      <Link>Properties\SolutionAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="Common\RazorTests.cs" />
+    <Compile Include="Common\RxTests.cs" />
+    <Compile Include="Common\Schedulder\BasicTests.cs" />
+    <Compile Include="Common\Schedulder\BootstrapEnabledTests.cs" />
+    <Compile Include="Common\UI\BasicTests.cs" />
+    <Compile Include="Common\UI\BootstrapEnabledTests.cs" />
+    <Compile Include="Data\BootstrapEnabledTests.cs" />
+    <Compile Include="Data\BoxModule\BasicTests.cs" />
+    <Compile Include="Data\BoxModule\BootstrapEnabledTests.cs" />
+    <Compile Include="Common\Browsing\BasicTests.cs" />
+    <Compile Include="Common\Browsing\BootstrapEnabledTests.cs" />
+    <Compile Include="Helpers\Entities\IndexableTestBox.cs" />
+    <Compile Include="Helpers\Entities\IndexableTestEntity.cs" />
+    <Compile Include="Helpers\Entities\IndexableTestRepository.cs" />
+    <Compile Include="Helpers\Scripts\SchedulerTaskOverride.cs" />
+    <Compile Include="Helpers\Scripts\SleepIntervalScript.cs" />
+    <Compile Include="Helpers\Scripts\TestDependencies.cs" />
+    <Compile Include="Helpers\TestResponse.cs" />
+    <Compile Include="Helpers\Entities\TestBox.cs" />
+    <Compile Include="Helpers\Entities\TestBoxChild.cs" />
+    <Compile Include="Helpers\Entities\TestEntity.cs" />
+    <Compile Include="Helpers\TestModule.cs" />
+    <Compile Include="Helpers\Entities\TestRepository.cs" />
+    <Compile Include="Helpers\Entities\TestWithSettingEntity.cs" />
+    <Compile Include="Common\CommonTests.cs" />
+    <Compile Include="Helpers\TestBootstrapEnabledTests.cs" />
+    <Compile Include="Common\HttpProxyModule\BootstrapEnabledTests.cs" />
+    <Compile Include="Data\IndexModuleTest\BootstrapEnabledTests.cs" />
+    <Compile Include="Data\MetricsModule\BootstrapEnabledTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Common\RedistTests.cs" />
+    <Compile Include="Data\BoxModule\RemoteTableTest.cs" />
+    <Compile Include="Helpers\Samples\BasicTests.cs" />
+    <Compile Include="Helpers\Samples\BootstrapEnabledTests.cs" />
+    <Compile Include="Common\ServiceModel\ITestService.cs" />
+    <Compile Include="Common\ServiceModel\ITestServiceEvents.cs" />
+    <Compile Include="Common\ServiceModel\TestService.cs" />
+    <Compile Include="Common\ServiceModel\TestServiceEventsHandler.cs" />
+    <Compile Include="Common\ServiceModel\TestServiceEventsPublisher.cs" />
+    <Compile Include="Data\SettingsModule\BootstrapEnabledTests.cs" />
+    <Compile Include="Data\StateModule\BootstrapEnabledTests.cs" />
+    <Compile Include="Data\TaxonModule\BootstrapEnabledTests.cs" />
+    <Compile Include="Data\BasicTests.cs" />
+    <Compile Include="Data\TrackingModule\BootstrapEnabledTests.cs" />
+    <Compile Include="Common\ServiceModel\WcfTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Components\BinaryAnalysis.Box\BinaryAnalysis.Box.csproj">
+      <Project>{2B477514-147E-46CD-A01C-17B7B1E04DF3}</Project>
+      <Name>BinaryAnalysis.Box</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Components\BinaryAnalysis.Browsing\BinaryAnalysis.Browsing.csproj">
+      <Project>{9BDB0B5D-5FCE-4B04-95E8-4E68C1C3FF44}</Project>
+      <Name>BinaryAnalysis.Browsing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Components\BinaryAnalysis.Data\BinaryAnalysis.Data.csproj">
+      <Project>{CFA1F858-2EDC-43B3-9C21-F8C528F1F29B}</Project>
+      <Name>BinaryAnalysis.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Components\BinaryAnalysis.Extensions\BinaryAnalysis.Extensions.csproj">
+      <Project>{DDE25ACB-994E-4C18-9A73-C2B81717B74E}</Project>
+      <Name>BinaryAnalysis.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Components\BinaryAnalysis.Modularity\BinaryAnalysis.Modularity.csproj">
+      <Project>{EB1967E5-98F5-46BE-AEE4-78908C0AE7F3}</Project>
+      <Name>BinaryAnalysis.Modularity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Components\BinaryAnalysis.Scheduler\BinaryAnalysis.Scheduler.csproj">
+      <Project>{4D1BC45F-1471-46CD-95AE-8E5E9FDA8ABC}</Project>
+      <Name>BinaryAnalysis.Scheduler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Components\BinaryAnalysis.UI\BinaryAnalysis.UI.csproj">
+      <Project>{B319CF56-BFFF-4140-ACF3-6E0B7C06AC42}</Project>
+      <Name>BinaryAnalysis.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Components\ExpressionSerialization\ExpressionSerialization.csproj">
+      <Project>{01ABE4DB-4ABE-4B0E-878B-B42A8C9B6560}</Project>
+      <Name>ExpressionSerialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Components\HtmlAgilityPack\HtmlAgilityPack.csproj">
+      <Project>{193BB801-054F-4729-9D5D-FCE1E32594BF}</Project>
+      <Name>HtmlAgilityPack</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Examples\BA.Examples.ServiceProcess\BA.Examples.ServiceProcess.csproj">
+      <Project>{2DC77728-6C19-4E02-BF41-B220F4889C94}</Project>
+      <Name>BA.Examples.ServiceProcess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_data\usanov-net.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+</Project>

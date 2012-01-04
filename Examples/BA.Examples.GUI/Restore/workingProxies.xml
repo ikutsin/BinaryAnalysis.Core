@@ -1,0 +1,1011 @@
+<?xml version="1.0"?>
+<Box xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HttpProxy Id="87">
+    <FirstUpdate>2011-08-08T15:43:25.5781309</FirstUpdate>
+    <LastLive>2011-08-08T15:43:25.5781309</LastLive>
+    <LastUpdate>2011-08-08T15:43:25.5781309</LastUpdate>
+    <Country>United States</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://193.174.155.27:3124/</IP>
+  </HttpProxy>
+  <HttpProxy Id="129">
+    <FirstUpdate>2011-08-08T15:43:34.620035</FirstUpdate>
+    <LastLive>2011-08-08T15:43:34.620035</LastLive>
+    <LastUpdate>2011-08-08T15:43:34.620035</LastUpdate>
+    <Country>Iceland</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://157.157.255.85/</IP>
+  </HttpProxy>
+  <HttpProxy Id="101">
+    <FirstUpdate>2011-08-08T15:43:39.2034933</FirstUpdate>
+    <LastLive>2011-08-08T15:43:39.2034933</LastLive>
+    <LastUpdate>2011-08-08T15:43:39.2034933</LastUpdate>
+    <Country>United States</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.proxylist.net</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://128.163.142.21:3127/</IP>
+  </HttpProxy>
+  <HttpProxy Id="163">
+    <FirstUpdate>2011-08-08T15:43:23.2238955</FirstUpdate>
+    <LastLive>2011-08-08T15:43:23.2238955</LastLive>
+    <LastUpdate>2011-08-08T15:43:23.2238955</LastUpdate>
+    <Country>United States</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://184.73.222.146/</IP>
+  </HttpProxy>
+  <HttpProxy Id="6">
+    <FirstUpdate>2011-08-08T15:43:27.6743405</FirstUpdate>
+    <LastLive>2011-08-08T15:43:27.6743405</LastLive>
+    <LastUpdate>2011-08-08T15:43:27.6743405</LastUpdate>
+    <Country>United States</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>checker.freeproxy.ru</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://207.32.199.16:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="124">
+    <FirstUpdate>2011-08-08T15:43:20.2225954</FirstUpdate>
+    <LastLive>2011-08-08T15:43:20.2225954</LastLive>
+    <LastUpdate>2011-08-08T15:43:20.2225954</LastUpdate>
+    <Country>Netherlands</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://188.142.49.254:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="200">
+    <FirstUpdate>2011-08-08T15:44:25.9411666</FirstUpdate>
+    <LastLive>2011-08-08T15:44:25.9411666</LastLive>
+    <LastUpdate>2011-08-08T15:44:25.9411666</LastUpdate>
+    <Country>Turkey</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://91.93.37.58:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="141">
+    <FirstUpdate>2011-08-08T15:43:31.5687299</FirstUpdate>
+    <LastLive>2011-08-08T15:43:31.5687299</LastLive>
+    <LastUpdate>2011-08-08T15:43:31.5687299</LastUpdate>
+    <Country>United States</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://205.129.191.161/</IP>
+  </HttpProxy>
+  <HttpProxy Id="97">
+    <FirstUpdate>2011-08-08T15:44:00.0185746</FirstUpdate>
+    <LastLive>2011-08-08T15:44:00.0185746</LastLive>
+    <LastUpdate>2011-08-08T15:44:00.0185746</LastUpdate>
+    <Country>United States</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://202.249.37.69:3124/</IP>
+  </HttpProxy>
+  <HttpProxy Id="140">
+    <FirstUpdate>2011-08-08T15:43:29.9845715</FirstUpdate>
+    <LastLive>2011-08-08T15:43:29.9845715</LastLive>
+    <LastUpdate>2011-08-08T15:43:29.9845715</LastUpdate>
+    <Country>Denmark</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://93.166.121.107:8118/</IP>
+  </HttpProxy>
+  <HttpProxy Id="198">
+    <FirstUpdate>2011-08-08T15:44:19.2614987</FirstUpdate>
+    <LastLive>2011-08-08T15:44:19.2614987</LastLive>
+    <LastUpdate>2011-08-08T15:44:19.2614987</LastUpdate>
+    <Country>Japan</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://58.4.70.106:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="148">
+    <FirstUpdate>2011-08-08T15:44:02.6698397</FirstUpdate>
+    <LastLive>2011-08-08T15:44:02.6698397</LastLive>
+    <LastUpdate>2011-08-08T15:44:02.6698397</LastUpdate>
+    <Country>Russian Federation</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://79.175.41.110/</IP>
+  </HttpProxy>
+  <HttpProxy Id="123">
+    <FirstUpdate>2011-08-08T15:44:10.1655892</FirstUpdate>
+    <LastLive>2011-08-08T15:44:10.1655892</LastLive>
+    <LastUpdate>2011-08-08T15:44:10.1655892</LastUpdate>
+    <Country>Venezuela</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://190.202.87.131:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="83">
+    <FirstUpdate>2011-08-08T15:44:14.3810107</FirstUpdate>
+    <LastLive>2011-08-08T15:44:14.3810107</LastLive>
+    <LastUpdate>2011-08-08T15:44:14.3810107</LastUpdate>
+    <Country>France</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://82.232.161.173:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="125">
+    <FirstUpdate>2011-08-08T15:43:21.0396771</FirstUpdate>
+    <LastLive>2011-08-08T15:43:21.0396771</LastLive>
+    <LastUpdate>2011-08-08T15:43:21.0396771</LastUpdate>
+    <Country>Nigeria</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://41.190.16.17:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="106">
+    <FirstUpdate>2011-08-08T15:43:57.2933021</FirstUpdate>
+    <LastLive>2011-08-08T15:43:57.2933021</LastLive>
+    <LastUpdate>2011-08-08T15:43:57.2933021</LastUpdate>
+    <Country>Ecuador</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.proxylist.net</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://190.95.145.195:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="43">
+    <FirstUpdate>2011-08-08T15:43:13.7229455</FirstUpdate>
+    <LastLive>2011-08-08T15:43:13.7229455</LastLive>
+    <LastUpdate>2011-08-08T15:43:13.7229455</LastUpdate>
+    <Country>Ukraine</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://195.114.128.28:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="102">
+    <FirstUpdate>2011-08-08T15:43:40.3016031</FirstUpdate>
+    <LastLive>2011-08-08T15:43:40.3016031</LastLive>
+    <LastUpdate>2011-08-08T15:43:40.3016031</LastUpdate>
+    <Country>United States</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.proxylist.net</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://128.163.142.21:3124/</IP>
+  </HttpProxy>
+  <HttpProxy Id="178">
+    <FirstUpdate>2011-08-08T15:43:39.6385368</FirstUpdate>
+    <LastLive>2011-08-08T15:43:39.6385368</LastLive>
+    <LastUpdate>2011-08-08T15:43:39.6385368</LastUpdate>
+    <Country>United States</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://205.209.188.250/</IP>
+  </HttpProxy>
+  <HttpProxy Id="37">
+    <FirstUpdate>2011-08-08T15:43:58.2313959</FirstUpdate>
+    <LastLive>2011-08-08T15:43:58.2313959</LastLive>
+    <LastUpdate>2011-08-08T15:43:58.2313959</LastUpdate>
+    <Country>United States</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://68.68.40.143:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="136">
+    <FirstUpdate>2011-08-08T15:43:57.1812909</FirstUpdate>
+    <LastLive>2011-08-08T15:43:57.1812909</LastLive>
+    <LastUpdate>2011-08-08T15:43:57.1812909</LastUpdate>
+    <Country>Taiwan</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://218.210.199.252:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="10">
+    <FirstUpdate>2011-08-08T15:43:48.1153844</FirstUpdate>
+    <LastLive>2011-08-08T15:43:48.1153844</LastLive>
+    <LastUpdate>2011-08-08T15:43:48.1153844</LastUpdate>
+    <Country>Singapore</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>checker.freeproxy.ru</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://58.185.18.3:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="209">
+    <FirstUpdate>2011-08-08T15:43:57.7063434</FirstUpdate>
+    <LastLive>2011-08-08T15:43:57.7063434</LastLive>
+    <LastUpdate>2011-08-08T15:43:57.7063434</LastUpdate>
+    <Country>Ukraine</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://195.182.193.233:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="82">
+    <FirstUpdate>2011-08-08T15:44:12.6528379</FirstUpdate>
+    <LastLive>2011-08-08T15:44:12.6528379</LastLive>
+    <LastUpdate>2011-08-08T15:44:12.6528379</LastUpdate>
+    <Country>Korea</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://194.254.215.11:3127/</IP>
+  </HttpProxy>
+  <HttpProxy Id="67">
+    <FirstUpdate>2011-08-08T15:43:40.8556585</FirstUpdate>
+    <LastLive>2011-08-08T15:43:40.8556585</LastLive>
+    <LastUpdate>2011-08-08T15:43:40.8556585</LastUpdate>
+    <Country>United States</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://193.63.58.71:3127/</IP>
+  </HttpProxy>
+  <HttpProxy Id="173">
+    <FirstUpdate>2011-08-08T15:44:09.2354962</FirstUpdate>
+    <LastLive>2011-08-08T15:44:09.2354962</LastLive>
+    <LastUpdate>2011-08-08T15:44:09.2354962</LastUpdate>
+    <Country>United States</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://71.226.144.27:8085/</IP>
+  </HttpProxy>
+  <HttpProxy Id="73">
+    <FirstUpdate>2011-08-08T15:43:25.749148</FirstUpdate>
+    <LastLive>2011-08-08T15:43:25.749148</LastLive>
+    <LastUpdate>2011-08-08T15:43:25.749148</LastUpdate>
+    <Country>Australia</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://137.111.42.144:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="134">
+    <FirstUpdate>2011-08-08T15:43:52.4868215</FirstUpdate>
+    <LastLive>2011-08-08T15:43:52.4868215</LastLive>
+    <LastUpdate>2011-08-08T15:43:52.4868215</LastUpdate>
+    <Country>Turkey</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://89.106.13.93/</IP>
+  </HttpProxy>
+  <HttpProxy Id="150">
+    <FirstUpdate>2011-08-08T15:43:22.2237955</FirstUpdate>
+    <LastLive>2011-08-08T15:43:22.2237955</LastLive>
+    <LastUpdate>2011-08-08T15:43:22.2237955</LastUpdate>
+    <Country>Germany</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://188.72.230.48:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="44">
+    <FirstUpdate>2011-08-08T15:43:15.038077</FirstUpdate>
+    <LastLive>2011-08-08T15:43:15.038077</LastLive>
+    <LastUpdate>2011-08-08T15:43:15.038077</LastUpdate>
+    <Country>Brazil</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://189.11.196.221:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="174">
+    <FirstUpdate>2011-08-08T15:44:10.9506677</FirstUpdate>
+    <LastLive>2011-08-08T15:44:10.9506677</LastLive>
+    <LastUpdate>2011-08-08T15:44:10.9506677</LastUpdate>
+    <Country>Kenya</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://212.49.64.3/</IP>
+  </HttpProxy>
+  <HttpProxy Id="47">
+    <FirstUpdate>2011-08-08T15:43:35.0610791</FirstUpdate>
+    <LastLive>2011-08-08T15:43:35.0610791</LastLive>
+    <LastUpdate>2011-08-08T15:43:35.0610791</LastUpdate>
+    <Country>Ukraine</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://195.114.128.9:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="92">
+    <FirstUpdate>2011-08-08T15:43:45.1570886</FirstUpdate>
+    <LastLive>2011-08-08T15:43:45.1570886</LastLive>
+    <LastUpdate>2011-08-08T15:43:45.1570886</LastUpdate>
+    <Country>China</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://116.55.19.96:808/</IP>
+  </HttpProxy>
+  <HttpProxy Id="231">
+    <FirstUpdate>2011-08-08T15:43:41.9457675</FirstUpdate>
+    <LastLive>2011-08-08T15:43:41.9457675</LastLive>
+    <LastUpdate>2011-08-08T15:43:41.9457675</LastUpdate>
+    <Country>Thailand</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://115.31.136.249:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="146">
+    <FirstUpdate>2011-08-08T15:43:56.3472075</FirstUpdate>
+    <LastLive>2011-08-08T15:43:56.3472075</LastLive>
+    <LastUpdate>2011-08-08T15:43:56.3472075</LastUpdate>
+    <Country>China</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://117.27.137.21:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="158">
+    <FirstUpdate>2011-08-08T15:43:48.6304359</FirstUpdate>
+    <LastLive>2011-08-08T15:43:48.6304359</LastLive>
+    <LastUpdate>2011-08-08T15:43:48.6304359</LastUpdate>
+    <Country>Uganda</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://212.88.118.181:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="166">
+    <FirstUpdate>2011-08-08T15:43:34.3810111</FirstUpdate>
+    <LastLive>2011-08-08T15:43:34.3810111</LastLive>
+    <LastUpdate>2011-08-08T15:43:34.3810111</LastUpdate>
+    <Country>Germany</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://94.100.245.54/</IP>
+  </HttpProxy>
+  <HttpProxy Id="4">
+    <FirstUpdate>2011-08-08T15:43:21.6747406</FirstUpdate>
+    <LastLive>2011-08-08T15:43:21.6747406</LastLive>
+    <LastUpdate>2011-08-08T15:43:21.6747406</LastUpdate>
+    <Country>Russian Federation</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>checker.freeproxy.ru</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://82.199.113.2:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="157">
+    <FirstUpdate>2011-08-08T15:43:46.2461975</FirstUpdate>
+    <LastLive>2011-08-08T15:43:46.2461975</LastLive>
+    <LastUpdate>2011-08-08T15:43:46.2461975</LastUpdate>
+    <Country>Russian Federation</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://95.31.2.114:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="239">
+    <FirstUpdate>2011-08-08T15:44:16.3812107</FirstUpdate>
+    <LastLive>2011-08-08T15:44:16.3812107</LastLive>
+    <LastUpdate>2011-08-08T15:44:16.3812107</LastUpdate>
+    <Country>Russian Federation</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://86.62.117.211:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="153">
+    <FirstUpdate>2011-08-08T15:43:28.4144145</FirstUpdate>
+    <LastLive>2011-08-08T15:43:28.4144145</LastLive>
+    <LastUpdate>2011-08-08T15:43:28.4144145</LastUpdate>
+    <Country>China</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://202.103.106.19:808/</IP>
+  </HttpProxy>
+  <HttpProxy Id="211">
+    <FirstUpdate>2011-08-08T15:44:07.3023029</FirstUpdate>
+    <LastLive>2011-08-08T15:44:07.3023029</LastLive>
+    <LastUpdate>2011-08-08T15:44:07.3023029</LastUpdate>
+    <Country>China</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://180.95.129.232/</IP>
+  </HttpProxy>
+  <HttpProxy Id="90">
+    <FirstUpdate>2011-08-08T15:43:40.5616291</FirstUpdate>
+    <LastLive>2011-08-08T15:43:40.5616291</LastLive>
+    <LastUpdate>2011-08-08T15:43:40.5616291</LastUpdate>
+    <Country>China</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://218.19.119.99:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="91">
+    <FirstUpdate>2011-08-08T15:43:42.9118641</FirstUpdate>
+    <LastLive>2011-08-08T15:43:42.9118641</LastLive>
+    <LastUpdate>2011-08-08T15:43:42.9118641</LastUpdate>
+    <Country>China</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://119.115.136.226:443/</IP>
+  </HttpProxy>
+  <HttpProxy Id="237">
+    <FirstUpdate>2011-08-08T15:44:08.7484475</FirstUpdate>
+    <LastLive>2011-08-08T15:44:08.7484475</LastLive>
+    <LastUpdate>2011-08-08T15:44:08.7484475</LastUpdate>
+    <Country>Russian Federation</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://195.18.48.165:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="243">
+    <FirstUpdate>2011-08-08T15:43:39.4425172</FirstUpdate>
+    <LastLive>2011-08-08T15:43:39.4425172</LastLive>
+    <LastUpdate>2011-08-08T15:43:39.4425172</LastUpdate>
+    <Country>Japan</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://220.110.128.26:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="192">
+    <FirstUpdate>2011-08-08T15:43:39.7345464</FirstUpdate>
+    <LastLive>2011-08-08T15:43:39.7345464</LastLive>
+    <LastUpdate>2011-08-08T15:43:39.7345464</LastUpdate>
+    <Country>China</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://121.32.150.147:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="22">
+    <FirstUpdate>2011-08-08T15:43:44.5290258</FirstUpdate>
+    <LastLive>2011-08-08T15:43:44.5290258</LastLive>
+    <LastUpdate>2011-08-08T15:43:44.5290258</LastUpdate>
+    <Country>Russian Federation</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>checker.freeproxy.ru</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://83.222.92.253:666/</IP>
+  </HttpProxy>
+  <HttpProxy Id="135">
+    <FirstUpdate>2011-08-08T15:43:54.5830311</FirstUpdate>
+    <LastLive>2011-08-08T15:43:54.5830311</LastLive>
+    <LastUpdate>2011-08-08T15:43:54.5830311</LastUpdate>
+    <Country>South Africa</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://196.21.60.3/</IP>
+  </HttpProxy>
+  <HttpProxy Id="137">
+    <FirstUpdate>2011-08-08T15:43:21.2246956</FirstUpdate>
+    <LastLive>2011-08-08T15:43:21.2246956</LastLive>
+    <LastUpdate>2011-08-08T15:43:21.2246956</LastUpdate>
+    <Country>China</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://180.95.129.231/</IP>
+  </HttpProxy>
+  <HttpProxy Id="191">
+    <FirstUpdate>2011-08-08T15:43:37.07028</FirstUpdate>
+    <LastLive>2011-08-08T15:43:37.07028</LastLive>
+    <LastUpdate>2011-08-08T15:43:37.07028</LastUpdate>
+    <Country>China</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://118.144.151.147:8909/</IP>
+  </HttpProxy>
+  <HttpProxy Id="132">
+    <FirstUpdate>2011-08-08T15:43:46.8072536</FirstUpdate>
+    <LastLive>2011-08-08T15:43:46.8072536</LastLive>
+    <LastUpdate>2011-08-08T15:43:46.8072536</LastUpdate>
+    <Country>Malaysia</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://210.48.147.52/</IP>
+  </HttpProxy>
+  <HttpProxy Id="98">
+    <FirstUpdate>2011-08-08T15:43:18.2233955</FirstUpdate>
+    <LastLive>2011-08-08T15:43:18.2233955</LastLive>
+    <LastUpdate>2011-08-08T15:43:18.2233955</LastUpdate>
+    <Country>Japan</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://49.212.15.191:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="206">
+    <FirstUpdate>2011-08-08T15:43:46.0131742</FirstUpdate>
+    <LastLive>2011-08-08T15:43:46.0131742</LastLive>
+    <LastUpdate>2011-08-08T15:43:46.0131742</LastUpdate>
+    <Country>China</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://61.164.110.133:808/</IP>
+  </HttpProxy>
+  <HttpProxy Id="152">
+    <FirstUpdate>2011-08-08T15:43:25.4611192</FirstUpdate>
+    <LastLive>2011-08-08T15:43:25.4611192</LastLive>
+    <LastUpdate>2011-08-08T15:43:25.4611192</LastUpdate>
+    <Country>Mexico</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://189.254.209.222/</IP>
+  </HttpProxy>
+  <HttpProxy Id="133">
+    <FirstUpdate>2011-08-08T15:43:49.6135342</FirstUpdate>
+    <LastLive>2011-08-08T15:43:49.6135342</LastLive>
+    <LastUpdate>2011-08-08T15:43:49.6135342</LastUpdate>
+    <Country>Malaysia</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://210.48.147.86/</IP>
+  </HttpProxy>
+  <HttpProxy Id="46">
+    <FirstUpdate>2011-08-08T15:43:31.8827613</FirstUpdate>
+    <LastLive>2011-08-08T15:43:31.8827613</LastLive>
+    <LastUpdate>2011-08-08T15:43:31.8827613</LastUpdate>
+    <Country>Brazil</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://187.6.85.33:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="205">
+    <FirstUpdate>2011-08-08T15:43:42.7648494</FirstUpdate>
+    <LastLive>2011-08-08T15:43:42.7648494</LastLive>
+    <LastUpdate>2011-08-08T15:43:42.7648494</LastUpdate>
+    <Country>Russian Federation</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://109.200.97.254:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="3">
+    <FirstUpdate>2011-08-08T15:43:18.6564388</FirstUpdate>
+    <LastLive>2011-08-08T15:43:18.6564388</LastLive>
+    <LastUpdate>2011-08-08T15:43:18.6564388</LastUpdate>
+    <Country>China</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>checker.freeproxy.ru</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://202.117.35.249/</IP>
+  </HttpProxy>
+  <HttpProxy Id="2">
+    <FirstUpdate>2011-08-08T15:43:15.5071239</FirstUpdate>
+    <LastLive>2011-08-08T15:43:15.5071239</LastLive>
+    <LastUpdate>2011-08-08T15:43:15.5071239</LastUpdate>
+    <Country>Ukraine</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>checker.freeproxy.ru</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://93.79.74.41:8088/</IP>
+  </HttpProxy>
+  <HttpProxy Id="107">
+    <FirstUpdate>2011-08-08T15:43:59.0304758</FirstUpdate>
+    <LastLive>2011-08-08T15:43:59.0304758</LastLive>
+    <LastUpdate>2011-08-08T15:43:59.0304758</LastUpdate>
+    <Country>Egypt</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.proxylist.net</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://196.219.126.178:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="221">
+    <FirstUpdate>2011-08-08T15:43:56.9672695</FirstUpdate>
+    <LastLive>2011-08-08T15:43:56.9672695</LastLive>
+    <LastUpdate>2011-08-08T15:43:56.9672695</LastUpdate>
+    <Country>India</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://111.93.67.166/</IP>
+  </HttpProxy>
+  <HttpProxy Id="5">
+    <FirstUpdate>2011-08-08T15:43:24.2519983</FirstUpdate>
+    <LastLive>2011-08-08T15:43:24.2519983</LastLive>
+    <LastUpdate>2011-08-08T15:43:24.2519983</LastUpdate>
+    <Country>Latvia</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>checker.freeproxy.ru</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://87.110.190.98:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="164">
+    <FirstUpdate>2011-08-08T15:43:23.9059637</FirstUpdate>
+    <LastLive>2011-08-08T15:43:23.9059637</LastLive>
+    <LastUpdate>2011-08-08T15:43:23.9059637</LastUpdate>
+    <Country>Thailand</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://123.242.156.2:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="219">
+    <FirstUpdate>2011-08-08T15:43:47.7863515</FirstUpdate>
+    <LastLive>2011-08-08T15:43:47.7863515</LastLive>
+    <LastUpdate>2011-08-08T15:43:47.7863515</LastUpdate>
+    <Country>Brazil</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://186.215.103.106:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="126">
+    <FirstUpdate>2011-08-08T15:43:22.2978029</FirstUpdate>
+    <LastLive>2011-08-08T15:43:22.2978029</LastLive>
+    <LastUpdate>2011-08-08T15:43:22.2978029</LastUpdate>
+    <Country>Malaysia</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://210.48.147.85/</IP>
+  </HttpProxy>
+  <HttpProxy Id="171">
+    <FirstUpdate>2011-08-08T15:43:58.0553783</FirstUpdate>
+    <LastLive>2011-08-08T15:43:58.0553783</LastLive>
+    <LastUpdate>2011-08-08T15:43:58.0553783</LastUpdate>
+    <Country>China</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://219.139.132.59/</IP>
+  </HttpProxy>
+  <HttpProxy Id="190">
+    <FirstUpdate>2011-08-08T15:43:33.0878818</FirstUpdate>
+    <LastLive>2011-08-08T15:43:33.0878818</LastLive>
+    <LastUpdate>2011-08-08T15:43:33.0878818</LastUpdate>
+    <Country>China</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://218.204.240.26:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="184">
+    <FirstUpdate>2011-08-08T15:44:14.714044</FirstUpdate>
+    <LastLive>2011-08-08T15:44:14.714044</LastLive>
+    <LastUpdate>2011-08-08T15:44:14.714044</LastUpdate>
+    <Country>Colombia</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://190.254.20.42:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="187">
+    <FirstUpdate>2011-08-08T15:44:26.915264</FirstUpdate>
+    <LastLive>2011-08-08T15:44:26.915264</LastLive>
+    <LastUpdate>2011-08-08T15:44:26.915264</LastUpdate>
+    <Country>United States</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://205.129.191.162/</IP>
+  </HttpProxy>
+  <HttpProxy Id="69">
+    <FirstUpdate>2011-08-08T15:43:50.0645793</FirstUpdate>
+    <LastLive>2011-08-08T15:43:50.0645793</LastLive>
+    <LastUpdate>2011-08-08T15:43:50.0645793</LastUpdate>
+    <Country>United Kingdom</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://94.185.245.84:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="7">
+    <FirstUpdate>2011-08-08T15:43:28.5264257</FirstUpdate>
+    <LastLive>2011-08-08T15:43:28.5264257</LastLive>
+    <LastUpdate>2011-08-08T15:43:28.5264257</LastUpdate>
+    <Country>Indonesia</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>checker.freeproxy.ru</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://122.144.4.98/</IP>
+  </HttpProxy>
+  <HttpProxy Id="238">
+    <FirstUpdate>2011-08-08T15:44:11.3567083</FirstUpdate>
+    <LastLive>2011-08-08T15:44:11.3567083</LastLive>
+    <LastUpdate>2011-08-08T15:44:11.3567083</LastUpdate>
+    <Country>China</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://125.75.204.22:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="183">
+    <FirstUpdate>2011-08-08T15:44:09.0844811</FirstUpdate>
+    <LastLive>2011-08-08T15:44:09.0844811</LastLive>
+    <LastUpdate>2011-08-08T15:44:09.0844811</LastUpdate>
+    <Country>United Kingdom</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://109.123.111.148:8118/</IP>
+  </HttpProxy>
+  <HttpProxy Id="199">
+    <FirstUpdate>2011-08-08T15:44:20.4136139</FirstUpdate>
+    <LastLive>2011-08-08T15:44:20.4136139</LastLive>
+    <LastUpdate>2011-08-08T15:44:20.4136139</LastUpdate>
+    <Country>Philippines</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://110.55.105.103/</IP>
+  </HttpProxy>
+  <HttpProxy Id="154">
+    <FirstUpdate>2011-08-08T15:43:30.6126343</FirstUpdate>
+    <LastLive>2011-08-08T15:43:30.6126343</LastLive>
+    <LastUpdate>2011-08-08T15:43:30.6126343</LastUpdate>
+    <Country>China</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://113.106.234.226:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="220">
+    <FirstUpdate>2011-08-08T15:43:51.0976826</FirstUpdate>
+    <LastLive>2011-08-08T15:43:51.0976826</LastLive>
+    <LastUpdate>2011-08-08T15:43:51.0976826</LastUpdate>
+    <Country>Indonesia</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://222.124.33.37:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="168">
+    <FirstUpdate>2011-08-08T15:43:39.8185548</FirstUpdate>
+    <LastLive>2011-08-08T15:43:39.8185548</LastLive>
+    <LastUpdate>2011-08-08T15:43:39.8185548</LastUpdate>
+    <Country>Korea</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://121.170.131.181/</IP>
+  </HttpProxy>
+  <HttpProxy Id="160">
+    <FirstUpdate>2011-08-08T15:43:53.1968925</FirstUpdate>
+    <LastLive>2011-08-08T15:43:53.1968925</LastLive>
+    <LastUpdate>2011-08-08T15:43:53.1968925</LastUpdate>
+    <Country>Brazil</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://200.198.83.44:8080/</IP>
+  </HttpProxy>
+  <HttpProxy Id="54">
+    <FirstUpdate>2011-08-08T15:43:49.8025531</FirstUpdate>
+    <LastLive>2011-08-08T15:43:49.8025531</LastLive>
+    <LastUpdate>2011-08-08T15:43:49.8025531</LastUpdate>
+    <Country>United States</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://72.52.126.3/</IP>
+  </HttpProxy>
+  <HttpProxy Id="179">
+    <FirstUpdate>2011-08-08T15:43:41.0056735</FirstUpdate>
+    <LastLive>2011-08-08T15:43:41.0056735</LastLive>
+    <LastUpdate>2011-08-08T15:43:41.0056735</LastUpdate>
+    <Country>United States</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://216.91.145.56/</IP>
+  </HttpProxy>
+  <HttpProxy Id="39">
+    <FirstUpdate>2011-08-08T15:44:07.0562783</FirstUpdate>
+    <LastLive>2011-08-08T15:44:07.0562783</LastLive>
+    <LastUpdate>2011-08-08T15:44:07.0562783</LastUpdate>
+    <Country>United States</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>www.xroxy.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://64.71.153.58:3128/</IP>
+  </HttpProxy>
+  <HttpProxy Id="222">
+    <FirstUpdate>2011-08-08T15:44:00.5366264</FirstUpdate>
+    <LastLive>2011-08-08T15:44:00.5366264</LastLive>
+    <LastUpdate>2011-08-08T15:44:00.5366264</LastUpdate>
+    <Country>Brazil</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://189.16.15.52/</IP>
+  </HttpProxy>
+  <HttpProxy Id="265">
+    <FirstUpdate>2011-08-08T15:44:36.1071831</FirstUpdate>
+    <LastLive>2011-08-08T15:44:36.1071831</LastLive>
+    <LastUpdate>2011-08-08T15:44:36.1071831</LastUpdate>
+    <Country>Algeria</Country>
+    <ResolverName>proxy.contrasocial.com</ResolverName>
+    <ProviderName>warezsale.com</ProviderName>
+    <Type>HighAnonymous</Type>
+    <PingTime />
+    <Comment>Elite</Comment>
+    <IP>http://196.20.65.211:8080/</IP>
+  </HttpProxy>
+</Box>

@@ -1,0 +1,19 @@
+﻿<Application x:Class="BA.Examples.ScriptingHelper.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="FiddlerWindow.xaml">
+             <!--StartupUri="ServiceControlWindow.xaml">-->
+             <!--StartupUri="StateBrowserWindow.xaml">-->
+             <!--StartupUri="TaxonomyTreeWindow.xaml">-->
+             <!--StartupUri="SimpleTextWindow.xaml">-->
+             <!--StartupUri="FiddlerWindow.xaml">-->
+             
+    
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Views/Resources/Res.Core.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

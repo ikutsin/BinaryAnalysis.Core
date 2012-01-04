@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{124C75EC-6A4C-49CC-8934-219ABB469FC2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BinaryAnalysis.ScriptingHelper</RootNamespace>
+    <AssemblyName>BinaryAnalysis.ScriptingHelper</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\..\Resources\Components\libs-common\Autofac\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\Resources\Components\libs-common\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="ScintillaNet">
+      <HintPath>..\..\Resources\Components\libs-common\ScintillaNet\ScintillaNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Resources\Properties\SolutionAssemblyInfo.cs">
+      <Link>Properties\SolutionAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="BrowserContext\ScriptingHelperContextExtension.cs" />
+    <Compile Include="Development\BaseScincillaWraper.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Development\BaseScincillaWraper.Designer.cs">
+      <DependentUpon>BaseScincillaWraper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Development\StandaloneScripter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Development\StandaloneScripter.Designer.cs">
+      <DependentUpon>StandaloneScripter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptingHelperVisualsModule.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="JS\BinaryAnalysis.ScriptingHelper.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SciLexer.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Development\BaseScincillaWraper.resx">
+      <DependentUpon>BaseScincillaWraper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Development\StandaloneScripter.resx">
+      <DependentUpon>StandaloneScripter.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BinaryAnalysis.Visuals\Visuals.Scheduler\Visuals.Scheduler.csproj">
+      <Project>{59FC2E25-9AC6-4B03-98AB-4E7C55BD7AA3}</Project>
+      <Name>Visuals.Scheduler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BinaryAnalysis.Scheduler\BinaryAnalysis.Scheduler.csproj">
+      <Project>{4D1BC45F-1471-46CD-95AE-8E5E9FDA8ABC}</Project>
+      <Name>BinaryAnalysis.Scheduler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BinaryAnalysis.UI\BinaryAnalysis.UI.csproj">
+      <Project>{B319CF56-BFFF-4140-ACF3-6E0B7C06AC42}</Project>
+      <Name>BinaryAnalysis.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
