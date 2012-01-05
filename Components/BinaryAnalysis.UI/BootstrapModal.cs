@@ -67,8 +67,8 @@ namespace BinaryAnalysis.UI
                     SetProgressAsync(30, "Init database");
 
                     //trackers
-                    var pTracker = bs.Container.Resolve<PerformanceCountersTracker>();
-                    pTracker.Start(TimeSpan.FromSeconds(10), "Performance");
+                    //var pTracker = bs.Container.Resolve<PerformanceCountersTracker>();
+                    //pTracker.Start(TimeSpan.FromSeconds(10), "Performance");
 
                     //var rTracker = bs.Container.Resolve<RandomTracker>();
                     //rTracker.Start(TimeSpan.FromSeconds(1), "Random");

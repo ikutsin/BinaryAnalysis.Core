@@ -58,22 +58,24 @@ namespace BinaryAnalysis.Scheduler.Task
             if (Settings == null) throw new InvalidOperationException("Settings not set");
             if (TaskName == null) throw new InvalidOperationException("TaskName not set");
 
-
+            InitScriptUtility(context);
             if (ScheduledScripts.Count > 0)
             {
                 var kvp = ScheduledScripts.First();
                 if (kvp.Date > DateTime.Now) throw new InvalidOperationException("Don't try to call tasks from the future");
                 return ExecuteScript(kvp.ScriptName, context);
             }
-            InitScriptUtility(context);
             OnTaskStarted();
             return ExecuteScript(Scripts.Keys.First(), context);
         }
 
         private void InitScriptUtility(IComponentContext context)
         {
-            scriptUtility = context.Resolve<ScriptUtility>();
-            scriptUtility.Settings = Settings;
+            if (scriptUtility == null)
+            {
+                scriptUtility = context.Resolve<ScriptUtility>();
+                scriptUtility.Settings = Settings;
+            }
         }
 
         public List<Tuple<string, object>> GetRequiredPropertyList(IComponentContext context)

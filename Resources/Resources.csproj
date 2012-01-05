@@ -120,7 +120,9 @@
   <ItemGroup>
     <None Include="Build\ReleaseDebug.bat" />
     <None Include="Build\Release.bat" />
-    <None Include="Build\Release.build" />
+    <None Include="Build\Release.build">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Components\libs-common\Flee\Ciloci.Flee.chm" />
     <None Include="Components\libs-common\NHibernate\nhibernate-configuration.xsd">
       <SubType>Designer</SubType>

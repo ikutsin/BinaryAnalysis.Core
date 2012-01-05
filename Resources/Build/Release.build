@@ -23,6 +23,7 @@
     <CoreJS Include="$(WorkingFolder)BinaryAnalysis.Visuals\Visuals.Annotations\JS\**\*.*" />
     <CoreJS Include="$(WorkingFolder)BinaryAnalysis.Visuals\Visuals.Debug\JS\**\*.*" />
     <CoreJS Include="$(WorkingFolder)BinaryAnalysis.Visuals\Visuals.Scheduler\JS\**\*.*" />
+    <CoreJS Include="$(WorkingFolder)Components\BinaryAnalysis.ScriptingHelper\JS\**\*.*" />
     <CoreJS Include="$(WorkingFolder)Components\BinaryAnalysis.UI\JS\**\*.*"
             Exclude="$(WorkingFolder)Components\BinaryAnalysis.UI\JS\vsdoc\*.*" />
     
