@@ -118,6 +118,7 @@
     <Compile Include="Properties\SolutionAssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Build\ReleaseDebug.bat" />
     <None Include="Build\Release.bat" />
     <None Include="Build\Release.build" />
     <None Include="Components\libs-common\Flee\Ciloci.Flee.chm" />

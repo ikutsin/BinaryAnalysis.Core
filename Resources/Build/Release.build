@@ -35,7 +35,7 @@
     <Copy SourceFiles="@(CoreRestore)" DestinationFiles="@(CoreRestore->'$(TargetFolder)\Restore\%(Filename)%(Extension)')" />
   </Target>
   <Target Name="CopyDebug" Condition="$(Configuration)=='Debug'">
-    <Copy SourceFiles="@(CoreAssemblies)" DestinationFiles="@(CoreAssemblies->'$(TargetFolder)\%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(CoreDebug)" DestinationFiles="@(CoreDebug->'$(TargetFolder)\%(Filename)%(Extension)')" />
   </Target>
 
   <!--:::  Start  :::::::::::::::::::::::::::-->
