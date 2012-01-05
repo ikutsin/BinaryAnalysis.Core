@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition="$(Configuration)==''">Debug</Configuration>
     <WorkingFolder>$(MSBuildProjectDirectory)\..\..\</WorkingFolder>
-    <TargetFolder>M:\BinaryAnalysis.Core\</TargetFolder>
+    <TargetFolder Condition="$(TargetFolder)==''">M:\BinaryAnalysis.Core\</TargetFolder>
   </PropertyGroup>
   <!--:::  Build  :::::::::::::::::::::::::::-->
   <ItemGroup>
@@ -32,6 +32,7 @@
   <Target Name="Copy">
     <Copy SourceFiles="@(CoreAssemblies)" DestinationFiles="@(CoreAssemblies->'$(TargetFolder)\%(Filename)%(Extension)')" />
     <Copy SourceFiles="@(CoreJS)" DestinationFiles="@(CoreJS->'$(TargetFolder)\JS\%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Copy SourceFiles="@(CoreRestore)" DestinationFiles="@(CoreRestore->'$(TargetFolder)\Restore\%(Filename)%(Extension)')" />
   </Target>
   <Target Name="CopyDebug" Condition="$(Configuration)=='Debug'">
     <Copy SourceFiles="@(CoreAssemblies)" DestinationFiles="@(CoreAssemblies->'$(TargetFolder)\%(Filename)%(Extension)')" />
