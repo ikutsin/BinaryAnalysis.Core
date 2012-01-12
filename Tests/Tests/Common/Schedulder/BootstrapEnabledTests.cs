@@ -29,6 +29,14 @@ namespace BinaryAnalysis.Tests.Common.Schedulder
         }
 
         [Test]
+        public void SimpleRunTest()
+        {
+            var factory = Container.Resolve<TaskFactory>();
+            var task = factory.InitTaskFromContainer("do-nothing");
+            factory.RunTaskUntilFinished(task);
+        }
+
+        [Test]
         public void ScriptDependenciesResolvingTest()
         {
             var ctxDep = Container.Resolve<TestDependenciesInContext>();

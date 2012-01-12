@@ -239,3 +239,8 @@ li.sfHover > a > .sf-sub-indicator {
 /* superfish end */
 
 
+/* jqgrid/window fixes */
+.ui-jqgrid th, .ui-jqgrid td { font-size: 11px }
+.ui-jqgrid input { font-size: 11px; height:15px !important }
+.window_header.window_header_normal { height:25px !important }
+.ui-widget-overlay{ position: absolute !important; }
