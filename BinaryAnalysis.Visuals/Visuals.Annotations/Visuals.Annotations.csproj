@@ -54,12 +54,16 @@
       <Link>Properties\SolutionAssemblyInfo.cs</Link>
     </Compile>
     <Compile Include="AnnotationVisualsModule.cs" />
+    <Compile Include="BrowserContext\StateContextExtension.cs" />
     <Compile Include="BrowserContext\MetricsContextExtension.cs" />
     <Compile Include="BrowserContext\SettingsContextExtension.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="JS\BinaryAnalysis.Annotations.js">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="JS\Templates\StateGrid.htm">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="JS\Templates\MetricsGraphs.htm">
@@ -76,6 +80,10 @@
     <ProjectReference Include="..\..\Components\BinaryAnalysis.Box\BinaryAnalysis.Box.csproj">
       <Project>{2B477514-147E-46CD-A01C-17B7B1E04DF3}</Project>
       <Name>BinaryAnalysis.Box</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Components\BinaryAnalysis.Browsing\BinaryAnalysis.Browsing.csproj">
+      <Project>{9BDB0B5D-5FCE-4B04-95E8-4E68C1C3FF44}</Project>
+      <Name>BinaryAnalysis.Browsing</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Components\BinaryAnalysis.Data\BinaryAnalysis.Data.csproj">
       <Project>{CFA1F858-2EDC-43B3-9C21-F8C528F1F29B}</Project>

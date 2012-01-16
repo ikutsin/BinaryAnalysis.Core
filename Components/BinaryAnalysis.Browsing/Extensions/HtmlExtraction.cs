@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Xml.Linq;
 using BinaryAnalysis.Browsing.Windowless;
 using System.Xml.XPath;
@@ -43,6 +44,11 @@ namespace BinaryAnalysis.Browsing.Extensions
                 result = result.Replace(linkR, linkA);
             }
             return result;
+        }
+
+        public static string RemoveScript(string input)
+        {
+            return Regex.Replace(input, "<script.*?</script>", "", RegexOptions.Singleline | RegexOptions.IgnoreCase);
         }
 
         /// <summary>

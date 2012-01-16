@@ -126,6 +126,11 @@ BAUI.actions = {
         if (!text) { alert("Error: no text"); return; }
         window.external('core').showTextDialog(text);
     },
+    BrowserWindow: function (title, text) {
+        if (!text) text = unescape($("body").data("hurl").link.target);
+        if (!text) { alert("Error: no text"); return; }
+        window.external('core').showBrowserDialog(title, text);
+    },
     About: function () {
         $.deps.load("Templates/About.htm", function () {
             var opts = {

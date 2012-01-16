@@ -23,8 +23,11 @@ namespace BinaryAnalysis.UI.Controls
             InitializeComponent();
             InitBrowser();
             InitModel();
-            
-            Context = ProgramContext.Container.Resolve<ContextExtensionsHolder>();
+
+            if (Bootstrap.Instance != null)
+            {
+                Context = ProgramContext.Container.Resolve<ContextExtensionsHolder>();
+            }
         }
 
         private void InitModel()
@@ -35,7 +38,12 @@ namespace BinaryAnalysis.UI.Controls
             BaseModel.Title = "Title";
         }
 
-        public ContextExtensionsHolder Context { get; set; }
+        private ContextExtensionsHolder _context;
+        public ContextExtensionsHolder Context
+        {
+            get { return _context; }
+            set { _context = value; }
+        }
 
         private void InitBrowser()
         {
@@ -104,20 +112,23 @@ namespace BinaryAnalysis.UI.Controls
 
         public dynamic BaseModel { get; set; }
 
+        public void DisplayContent(string content)
+        {
+            var filename = DateTime.Now.ToString("yyyy-MM-dd_hh-mm-ss-ffffff") + ".html";
+            var tempFolder = Path.Combine(Environment.CurrentDirectory, "JS", "Temp");
+            if (!Directory.Exists(tempFolder)) Directory.CreateDirectory(tempFolder);
+            File.WriteAllText(Path.Combine(tempFolder, filename), content);
+            DisplayDocument(JsUrl("Temp/" + filename));
+        }
+
         public void DisplayTemplate(string templateName, dynamic model = null)
         {
             if (model == null) model = BaseModel;
             try
             {
                 var templatePath = Path.Combine(JsDirectory, "Templates", templateName + ".html");
-                var filename = DateTime.Now.ToString("yyyy-MM-dd_hh-mm-ss-ffffff") + ".html";
-                var result = Razor.Parse(File.ReadAllText(templatePath), model, filename);
-
-                var tempFolder = Path.Combine(Environment.CurrentDirectory, "JS", "Temp");
-
-                if (!Directory.Exists(tempFolder)) Directory.CreateDirectory(tempFolder);
-                File.WriteAllText(Path.Combine(tempFolder, filename), result);
-                DisplayDocument(JsUrl("Temp/" + filename));
+                var result = Razor.Parse(File.ReadAllText(templatePath), model, templateName);
+                DisplayContent(result);
             }
             catch (RazorEngine.Templating.TemplateCompilationException ex)
             {

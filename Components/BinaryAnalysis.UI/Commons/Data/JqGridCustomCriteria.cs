@@ -12,7 +12,7 @@ using NHibernate.Criterion;
 
 namespace BinaryAnalysis.UI.Commons.Data
 {
-    class JqGridCustomCriteria<TM, TE> : CustomEntityCriteria<TM, TE>
+    public class JqGridCustomCriteria<TM, TE> : CustomEntityCriteria<TM, TE>
         where TM : EntityBoxMap
         where TE : Entity
     {

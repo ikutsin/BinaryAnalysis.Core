@@ -48,6 +48,7 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BinaryAnalysis.UI, Version=1.0.4398.28823, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="EmitMapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="RazorEngine">
       <HintPath>..\..\Resources\Components\libs-common\RazorEngine.dll</HintPath>
@@ -120,6 +121,12 @@
     <Compile Include="Controls\BrowserControl.Designer.cs">
       <DependentUpon>BrowserControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\BrowserWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\BrowserWindow.Designer.cs">
+      <DependentUpon>BrowserWindow.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\HorizontalLayoutPanel.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -172,6 +179,9 @@
     <EmbeddedResource Include="Controls\BrowserControl.resx">
       <DependentUpon>BrowserControl.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BrowserWindow.resx">
+      <DependentUpon>BrowserWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controls\LogControl.resx">
       <DependentUpon>LogControl.cs</DependentUpon>

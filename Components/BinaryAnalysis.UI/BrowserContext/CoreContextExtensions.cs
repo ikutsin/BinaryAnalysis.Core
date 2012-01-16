@@ -77,7 +77,11 @@ namespace BinaryAnalysis.UI.BrowserContext
                     weight = 0
                 });
         }
-
+        public void showBrowserDialog(string title = "Browser", object content = null)
+        {
+            if (content == null) MessageBox.Show("Nothing to show", "Show Browser action");
+            else new BrowserWindow(title, content.ToString()).ShowDialog();
+        }
         public void showTextDialog(object args)
         {
             if (args == null) MessageBox.Show("Nothing to show", "ShowText action");

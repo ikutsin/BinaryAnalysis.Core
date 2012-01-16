@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.Data;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -99,5 +100,23 @@ namespace BinaryAnalysis.UI.Controls
         }
 
         public string Content { get { return richTextBox1.Text; }set { richTextBox1.Text = value; } }
+
+        private void btn_save_Click(object sender, EventArgs e)
+        {
+            var saveDialog = new SaveFileDialog();
+            if (saveDialog.ShowDialog() == DialogResult.OK)
+            {
+                Stream myStream;
+                if ((myStream = saveDialog.OpenFile()) != null)
+                {
+                    using (var textWriter = new StreamWriter(myStream))
+                    {
+                        textWriter.Write(richTextBox1.Text);
+                    }
+                    myStream.Close();
+                }
+            }
+            
+        }
     }
 }

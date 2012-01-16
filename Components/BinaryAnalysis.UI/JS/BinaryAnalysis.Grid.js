@@ -43,8 +43,8 @@ $.extend($.fn.fmatter, {
         return BAUI.toolSet.escape(cellvalue ? String(cellvalue) : null);
     },
     date: function (cellvalue, options, rowdata) {
-        var date = new Date(parseInt(cellvalue.substr(6)));
         try {
+            var date = new Date(parseInt(cellvalue.substr(6)));
             return date.format('yyyy-mm-dd hh:MM');
         } catch (ex) { return '-'; }
     },

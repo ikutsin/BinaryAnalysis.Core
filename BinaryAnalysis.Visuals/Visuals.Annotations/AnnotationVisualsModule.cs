@@ -18,6 +18,10 @@ namespace BinaryAnalysis.Visuals.Annotations
                 .WithMetadata<IBrowserContextExtensionMetadata>(
                     m => m.For(am => am.Name, "settings"));
 
+            builder.RegisterType<StateContextExtension>().As<IBrowserContextExtension>()
+                .WithMetadata<IBrowserContextExtensionMetadata>(
+                    m => m.For(am => am.Name, "state"));
+
             //Visual dependencies
             builder.RegisterType<AnnotationVisualDependencies>()
                 .As<IVisualDependencies>()
@@ -36,6 +40,11 @@ namespace BinaryAnalysis.Visuals.Annotations
                                    {
                                        Action = new {action = "eval", data = "BAUI.annotations.Health()"},
                                        Path = "File/Health", Weight = 0
+                                   },
+                                new VisualMenuItem
+                                   {
+                                       Action = new {action = "eval", data = "BAUI.annotations.StateBrowser()"},
+                                       Path = "File/StateBrowser", Weight = 1
                                    }
                            };
             }
@@ -53,6 +62,7 @@ namespace BinaryAnalysis.Visuals.Annotations
                                        {
                                            "Templates/MetricsGraphs.htm",
                                            "Templates/HealthGraphs.htm",
+                                           "Templates/StateGrid.htm",
                                        }
                                    },
                                {
